@@ -1,58 +1,59 @@
-.banner{
-    position: relative;
-    min-height: 100vh;
-    background: url(https://cdn.nirmitee.io/banner.jpeg) no-repeat bottom;
-    background-size: 100vw auto;
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: url(https://cdn.nirmitee.io/banner.jpeg) no-repeat bottom;
+  background-size: 100vw auto;
 }
 
-.headline{
-    position: absolute;
-    padding: 0 7rem;
-    margin-top: 25vh;
+.headline {
+  position: absolute;
+  padding: 0 7rem;
+  margin-top: 25vh;
 }
 
-.headline h1{
-    font-size: 3.3rem;
-    margin: unset;
-    text-align: left;
-    font-weight: 300;
-    margin-bottom: 29px;
-    height: auto;
-    max-height: 125px;
-    letter-spacing: 1px;
-    width: 90%;
-    color: #eee;
+.headline h1 {
+  font-size: 3.3rem;
+  margin: unset;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 29px;
+  height: auto;
+  max-height: 125px;
+  letter-spacing: 1px;
+  width: 90%;
+  color: #eee;
 }
 
-.headline h3{
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    color: #eee;
-    font-weight: 300;
-    text-align: left;
-    letter-spacing: 1.5px;
-    width: 70%; 
+.headline h3 {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #eee;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 1.5px;
+  width: 70%;
 }
 
-.button{
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding : 2px;
-    height: 40px;
-    /* border: 1px solid white; */
+.button {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 2px;
+  height: 40px;
+  /* border: 1px solid white; */
 }
-.button a{
-    text-decoration: none;
+.button a {
+  text-decoration: none;
+  margin-right: 100px;
 }
 
-.btn{
-    color : black;
-    transition: all 0.3s ease ;   
-    border-radius : 5px;
-    background-color: rgba(255, 254, 255, 0.805);
-    font-weight: bold;
-    font-size: 0.7rem;
-    padding : 0.75rem;
+.btn {
+  color: black;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  background-color: rgba(255, 254, 255, 0.805);
+  font-weight: bold;
+  font-size: 0.7rem;
+  padding: 0.75rem;
 }
