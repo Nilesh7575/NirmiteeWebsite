@@ -1,14 +1,10 @@
 import "./App.css";
-import Services from "./comonents/Services";
+import Services from "./components/Services";
 
 function App() {
   return (
     <div className="App">
-      {/* navbar - Abhishek */}
-
       <Services />
-
-      {/* footer */}
     </div>
   );
 }
