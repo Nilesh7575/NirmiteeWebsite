@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
      
      {/* navbar - Abhishek */}
-
+<Navbar/>
 
 {/* body */}
 
