@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import company from '../images/company.png'
+import company from '../images/company1.png'
 import arrowdown from '../images/arrow-down.svg'
 import './Navbar.css'
 import MobileNavigation from './MobileNavigation'
@@ -24,6 +24,12 @@ function Navbar() {
      
      
         <img src={company} alt="" />
+
+
+
+
+
+
    
     
         {/* <div className="dropdown">

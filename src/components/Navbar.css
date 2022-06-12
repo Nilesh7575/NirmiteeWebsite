@@ -43,8 +43,19 @@ margin-right: 10vw;
 position: absolute;
 width: 20vh;
 left: 0px;
+top: 1vh;
+
   }
-  
+
+/* 
+  .svg-logo {
+    margin-right: 10vw;
+position: absolute;
+width: 20vh;
+left: 0px;
+bottom: 0px;
+  }
+   */
   
 
   .navbar-items-left-icons {
