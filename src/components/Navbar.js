@@ -5,6 +5,7 @@ import './Navbar.css'
 import MobileNavigation from './MobileNavigation'
 import { Fade as Hamburger } from 'hamburger-react'
 
+import { motion } from "framer-motion";
 
 function Navbar() {
 
@@ -13,6 +14,25 @@ function Navbar() {
 
 
 
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+  
+    },
+    visible: {
+      opacity: 1,
+      transition: 
+        {delay:1.0, duration:1.5}
+      },
+    }  
+
+
+
+    const listVariants = {
+      visible: {
+        transition: {type: 'tween'}
+      }
+    }
 
   return (
     <div className='navbar'>
@@ -42,19 +62,53 @@ function Navbar() {
 </div> */}
 
 
-<div className='navbar-items-left-icons'>
+<motion.div 
+ variants={containerVariants}
+ initial="hidden"
+ animate="visible"
+
+className='navbar-items-left-icons'>
 
 <div class="dropdown">
   <button class="dropbtn"> 
-  <p>Home</p> 
+  <motion.p
+  
+  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+             transition={{style:'spring', stiffness:100}}>Home</motion.p>
+             
   {/* <img src={arrowdown} alt="" /> */}
   
   </button> 
-  <div class="dropdown-content">
-    <a href="#">Link 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minima quisquam vel blanditiis in eos sint ad, consectetur consequatur nam quod ipsum! Ipsa odit laboriosam qui. Esse dolor vero ad.</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
+
+
+
+
+
+
+  <motion.div
+  variants={listVariants}
+  animate="visible"
+
+  class="dropdown-content">
+    <a href="#"> <motion.p
+
+  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+  transition={{style:'spring', stiffness:100}}
+    > Link 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minima quisquam vel blanditiis in eos sint ad, consectetur consequatur nam quod ipsum! Ipsa odit laboriosam qui. Esse dolor vero ad.</motion.p>  </a>
+    
+    <a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+
+  </motion.div>
 </div>
 
 
@@ -66,9 +120,22 @@ function Navbar() {
     </button>
     
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+  <a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+
   </div>
 </div>
 
@@ -81,9 +148,22 @@ function Navbar() {
 
   </button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+  <a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+
   </div>
 </div>
 
@@ -97,14 +177,27 @@ function Navbar() {
 
     </button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+  <a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+
   </div>
 </div>
 
 
-</div>
+</motion.div>
 
 
 
@@ -120,17 +213,21 @@ function Navbar() {
 
     <div className='navbar-empty-middle'></div>
 
-    <div className='navbar-items-right'>
+    <motion.div 
+ variants={containerVariants}
+ initial="hidden"
+ animate="visible" className='navbar-items-right'>
+
+
     <div class="dropdown">
   <button class="dropbtn">
     <p>Services</p>
-
-
     </button>
 
 </div>
+
 <button>Talk to experts</button>
-    </div>
+    </motion.div>
 
     <div className='hamburger-menu-icon'><MobileNavigation/></div>
 
