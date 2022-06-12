@@ -88,6 +88,28 @@ function NavLinks({props}) {
          transition={{delay:0.40}}
 
         onClick={() => props.isMobile && props.closeMobileMenu()}><a href="/">Home</a></motion.li>
+
+
+        <div className='remaning-mobile-links'>
+        <motion.li 
+    initial={animatieFrom}
+    animate={animateTo}
+    transition={{delay:0.05}}
+
+    onClick={() => props.isMobile && props.closeMobileMenu()}> <a href="/">Services</a></motion.li>
+
+<motion.li 
+    initial={animatieFrom}
+    animate={animateTo}
+    transition={{delay:0.05}}
+
+    onClick={() => props.isMobile && props.closeMobileMenu()}> <a href="/">Talk to Experts</a></motion.li>
+
+        </div>
+
+       
+
+        
 </ul>
 </div>
   )

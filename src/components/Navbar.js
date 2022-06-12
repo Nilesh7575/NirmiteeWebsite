@@ -21,7 +21,7 @@ function Navbar() {
       
       <div className='navbar-items-left'>
 
-      <Hamburger color="white"  toggled={isOpen} toggle={setOpen} />
+     
      
         <img src={company} alt="" />
    
@@ -126,7 +126,7 @@ function Navbar() {
 <button>Talk to experts</button>
     </div>
 
-    <div className='hamburger'><MobileNavigation/></div>
+    <div className='hamburger-menu-icon'><MobileNavigation/></div>
 
         </div>
 
