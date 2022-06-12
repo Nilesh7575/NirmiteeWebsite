@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import company from '../images/company.png'
 import arrowdown from '../images/arrow-down.svg'
 import './Navbar.css'
+import MobileNavigation from './MobileNavigation'
+import { Fade as Hamburger } from 'hamburger-react'
+
 
 function Navbar() {
+
+
+  const [isOpen, setOpen] = useState(true);
+
+
+
+
   return (
     <div className='navbar'>
     
@@ -11,7 +21,7 @@ function Navbar() {
       
       <div className='navbar-items-left'>
 
-
+      <Hamburger color="white"  toggled={isOpen} toggle={setOpen} />
      
         <img src={company} alt="" />
    
@@ -111,13 +121,19 @@ function Navbar() {
 
 
     </button>
-=
+
 </div>
 <button>Talk to experts</button>
     </div>
+
+    <div className='hamburger'><MobileNavigation/></div>
+
         </div>
 
+
     </div>
+
+
   )
 }
 
