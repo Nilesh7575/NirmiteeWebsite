@@ -3,6 +3,10 @@ import {motion} from 'framer-motion'
 
 function NavLinks({props}) {
 
+    const animatieFrom = {opacity: 0, y: -40}
+    const animateTo = {opacity: 1, y:0}
+
+
 
   return (
 //     <div>
@@ -56,13 +60,34 @@ function NavLinks({props}) {
     <motion.li 
     initial={animatieFrom}
     animate={animateTo}
+    transition={{delay:0.05}}
 
     onClick={() => props.isMobile && props.closeMobileMenu()}> <a href="/">Home</a></motion.li>
-    <motion.li onClick={() => props.isMobile && props.closeMobileMenu()}><a href="/">Home</a></motion.li>
-    <motion.li onClick={() => props.isMobile && props.closeMobileMenu()}> 
+    <motion.li 
+     initial={animatieFrom}
+     animate={animateTo}
+     transition={{delay:0.10}}
+
+    onClick={() => props.isMobile && props.closeMobileMenu()}><a href="/">Home</a></motion.li>
+    <motion.li
+     initial={animatieFrom}
+     animate={animateTo}
+     transition={{delay:0.20}}
+    
+    onClick={() => props.isMobile && props.closeMobileMenu()}> 
         <a href="/">Home</a></motion.li> 
-        <motion.li onClick={() => props.isMobile && props.closeMobileMenu()}> <a href="/">Home</a></motion.li>
-        <motion.li onClick={() => props.isMobile && props.closeMobileMenu()}><a href="/">Home</a></motion.li>
+        <motion.li
+         initial={animatieFrom}
+         animate={animateTo}
+         transition={{delay:0.30}}
+
+        onClick={() => props.isMobile && props.closeMobileMenu()}> <a href="/">Home</a></motion.li>
+        <motion.li 
+         initial={animatieFrom}
+         animate={animateTo}
+         transition={{delay:0.40}}
+
+        onClick={() => props.isMobile && props.closeMobileMenu()}><a href="/">Home</a></motion.li>
 </ul>
 </div>
   )
