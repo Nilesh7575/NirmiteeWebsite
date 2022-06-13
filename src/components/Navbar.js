@@ -4,7 +4,7 @@ import arrowdown from '../images/arrow-down.svg'
 import './Navbar.css'
 import MobileNavigation from './MobileNavigation'
 import { Fade as Hamburger } from 'hamburger-react'
-
+import Services from './Services-Navbar'
 import { motion } from "framer-motion";
 
 function Navbar() {
@@ -80,39 +80,10 @@ className='navbar-items-left-icons'>
   
   </button> 
 
-
-
-
-
-
-  {/* <motion.div
-  variants={listVariants}
-  animate="visible"
-
-  class="dropdown-content">
-    <a href="#"> <motion.p
-
-  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
-  transition={{style:'spring', stiffness:100}}
-    > Link 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minima quisquam vel blanditiis in eos sint ad, consectetur consequatur nam quod ipsum! Ipsa odit laboriosam qui. Esse dolor vero ad.</motion.p>  </a>
-    
-    <a href="#"><motion.p
-
-whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
-
-
-<a href="#"><motion.p
-
-whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
-
-
-  </motion.div> */}
 </div>
 
 
-<div class="dropdown">
+<div className="dropdown">
   <button class="dropbtn">
   <motion.p
   
@@ -122,7 +93,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
     </button>
     
-  <div class="dropdown-content">
+  {/* <div class="dropdown-content">
   <a href="#"><motion.p
 
 whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
@@ -139,7 +110,48 @@ whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 
+  </div> */}
+
+
+
+
+
+
+<div className="dropdown1-content">
+  
+<div className="row">
+  <div className="column">
+    <h4>PRODUCT DEVELOPMENT</h4>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
   </div>
+  <div class="column">
+    <h4>GROWTH HACKING TECHNOLOGIES</h4>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <div className="column">
+    <h4>CLOUD SERVICES</h4>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <div className="column">
+    <h4>INTEGRATIONS</h4>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+</div>
+ 
+
+
+
+
+
 </div>
 
 
