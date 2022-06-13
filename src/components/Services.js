@@ -14,12 +14,13 @@ function Services() {
           <p>
             At Nirmitee.io we firmly believe that a successful app is not only
             technically sound and scalable, but also is the one that Offers
-            value to its users. Nirmitee.io has extensive experience in building
-            and deploying mobile apps which have helped the clients achieve
-            their purpose. We work on all major mobile platforms – iPhone, iPad,
-            and Android app development. As part of the development process, our
-            in house mobile user interface (UI) designers add a significant
-            value to the client.
+            value to its users.
+            <br /> Nirmitee.io has extensive experience in building and
+            deploying mobile apps which have helped the clients achieve their
+            purpose. We work on all major mobile platforms – iPhone, iPad, and
+            Android app development. As part of the development process, our in
+            house mobile user interface (UI) designers add a significant value
+            to the client.
           </p>
         </div>
         <div className="wrapper">

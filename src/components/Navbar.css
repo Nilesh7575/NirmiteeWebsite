@@ -1,0 +1,288 @@
+
+
+.navbar {
+    width: 100vw;
+    /* margin-top: 1% ; */
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    
+    height: 7vh;
+    background: black;
+  }
+  
+  .navbar-items {
+    width: 90vw;
+  margin: auto;
+    display: flex;
+    color: white;
+    height: 100%;
+  }
+  
+ 
+  
+  .navbar-items-left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  width: 50vw;
+  height: 5vh;
+  
+  }
+
+  .navbar-items-left > * {
+    
+    /* margin-right: 15px; */
+    text-align: center;
+  
+   
+  }
+  
+  .navbar-items-left > img {
+margin-right: 10vw;
+position: absolute;
+width: 20vh;
+left: 0px;
+top: 1vh;
+
+  }
+
+/* 
+  .svg-logo {
+    margin-right: 10vw;
+position: absolute;
+width: 20vh;
+left: 0px;
+bottom: 0px;
+  }
+   */
+  
+
+  .navbar-items-left-icons {
+    width: 40%;
+    position: absolute;
+    display: flex;
+  }
+
+
+  
+  .navbar-empty-middle {
+    width: 30%;
+  }
+  
+  
+  .navbar-items-right {
+    position: static;
+    justify-content: space-around;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    
+    
+  }
+  
+  .navbar-items-right > button {
+      border-radius: 15px;
+      cursor: pointer;
+
+      align-items: center;
+      display: flex;
+      height: 6vh;
+      background-color: #04AA6D;
+      color: white;
+      margin-right: 10% ;
+      width: max-content;
+    
+      font-size: 16px;
+      border: none;
+
+  }
+
+
+
+  .dropbtn {
+
+    align-items: center;
+    display: flex;
+    height: 6vh;
+    background-color: #1c1f1e;
+    color: white;
+    margin-right: 2% ;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+  }
+
+ 
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /* width: 20vw; */
+    margin-right: 5%;
+    height: 6vh;
+  }
+  
+  .dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+   
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #39403a; color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block; }
+  
+  .dropdown:hover .dropbtn {background-color: #39403a;}
+
+
+
+
+
+  .hamburger-menu-icon {
+display: none;
+height: 7vh;
+width: 3%;
+  }
+
+
+  /* Mobile Na Navigation */
+
+.mobile-navigation {
+  
+}
+
+  .menu-icon {
+position: absolute;
+left: 1%;
+height: 7vh;
+width: 3.5vw;
+top: 0;
+cursor: pointer;
+
+  }
+
+  .nav-links {
+    
+  }
+  
+  .nav-links ul {
+    border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+position: absolute;
+display: flex;
+flex-direction: column;
+left: 0;
+top: 7vh;
+background: #181818;
+width: 30vw;
+text-align: left;
+border-top: 3px solid black;
+  }
+
+
+  .nav-links ul li {
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+    padding-left: 15%;
+    border-top: 1px solid #39403a;
+   
+  }
+
+  .remaning-mobile-links li {
+    display: none;
+  }
+
+  .nav-links ul li a {
+color: #ddd;
+text-decoration: none;
+/* margin: auto; */
+  }
+
+
+  .nav-links ul li:hover {
+ color: #39403a ;
+  }
+
+
+
+
+  /* media query */
+
+
+  @media only screen and (max-width: 1481px) {
+     .navbar-empty-middle {
+      width: 10%;
+     }
+
+     .navbar-items-right{
+      width: 30%;
+     }
+     .navbar-items-left{
+      width: 70%;
+     }
+  }
+
+
+  @media only screen and (max-width: 1361px) {
+    .navbar-empty-middle {
+     width: 0%;
+    }
+
+    .navbar-items-left{
+     width: 70%;
+    }
+ }
+
+
+
+ @media only screen and (max-width: 1018px) {
+
+  .navbar-items{
+    width: 70vw;
+  }
+  .navbar-empty-middle {
+   width: 0%;
+  }
+
+  .navbar-items-left-icons{
+    display: none;
+   width: 0%;
+  }
+
+  .hamburger-menu-icon {display: block;
+  position: absolute;
+    left: 7%}
+
+
+ 
+}
+
+
+
+@media only screen and (max-width: 529px)
+{
+  .navbar-items-right {
+
+    display: none;
+  }
+
+  .remaning-mobile-links li{
+    display: block;
+  }
+}
