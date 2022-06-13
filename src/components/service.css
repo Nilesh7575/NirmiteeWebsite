@@ -1,0 +1,49 @@
+.service_main{
+    min-height: 20vh;
+    margin-bottom: 3.5rem;
+}
+
+.Service_innerPageBanner{
+    padding-top: 7.5rem;
+    padding-bottom: 3px;
+    margin-bottom: 6.5rem;
+    position: relative;
+    height: 42vh;
+    width: 100vw;
+    background-color: #000;
+    z-index: -1;
+}
+
+.Service_innerPageBanner img{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    opacity: .4;
+    left: 0;
+}
+
+.Service_innerPageBanner h1{
+    position: absolute;
+    color: #fff;
+    opacity: 1;
+    width: 100vw;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    bottom: 35%;
+    letter-spacing: 2px;
+}
+
+.Service_container{
+    margin: 0 5rem;   
+    padding: 0 15px;
+}
+
+.Service_container-inner{
+    text-align: left;
+    
+}
+.Service_container-inner{
+    color: rgb(99, 99, 99);
+    font-size: 20px;    
+}

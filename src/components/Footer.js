@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-inner-div">
                         <h3><span>Contact Us</span></h3>
-                        <div><a href="">Aundh Anand Park Road, 7, 5th Floor, Nirmitee.io, 
+                        <div className='address'><a href="" >Aundh Anand Park Road, 7, 5th Floor, Nirmitee.io, 
                         Rajyog Creations, above HDFC Bank, Pune, Maharashtra 411007, IN</a></div>
                         <div className="contact-us-div"><span><CallIcon /></span><p>9607930224</p></div>
                     </div>

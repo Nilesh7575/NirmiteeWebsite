@@ -7,6 +7,7 @@ import Services from "./components/Services";
 
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
+import Service from "./components/Service";
 
 
 function App() {
@@ -15,19 +16,12 @@ function App() {
 
 
       <Navbar />
-      <Cover />
-      <Services />
+      <Service/>
+      {/* <Cover />
+      <Services /> */}
       <Footer />
 
-      {/* <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/">
-            <Cover />
-            <Services />
-          </Route>
-        </Switch>
-      </Router> */}
+      
 
 
 
