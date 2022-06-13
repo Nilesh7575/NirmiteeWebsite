@@ -43,7 +43,7 @@
   .navbar-items-left > img {
 margin-right: 10vw;
 position: absolute;
-width: 20vh;
+width: 25vh;
 left: 0px;
 top: 1vh;
 
@@ -106,14 +106,15 @@ bottom: 0px;
 
     align-items: center;
     display: flex;
-    height: 6vh;
+    height: 8vh;
     background-color: #FAFAFA;
     color: #505050;
     margin-right: 2% ;
-    padding: 15px;
+    padding: 20px;
     font-size: 16px;
     border: none;
-    border-radius: 15px;
+    border-radius: 2px;
+    transition: 0.3s;
   }
 
  
@@ -124,6 +125,7 @@ bottom: 0px;
     /* width: 20vw; */
     margin-right: 5%;
     height: 6vh;
+   
   }
   
   .dropdown-content {
@@ -149,7 +151,7 @@ bottom: 0px;
   
   .dropdown:hover .dropdown-content {display: block; }
   
-  .dropdown:hover .dropbtn {background-color: #39403a;}
+  .dropdown:hover .dropbtn {background-color: #e8eee8; color: black; border-bottom: 4px solid gray; }
 
 
 

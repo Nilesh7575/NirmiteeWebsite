@@ -85,7 +85,7 @@ className='navbar-items-left-icons'>
 
 
 
-  <motion.div
+  {/* <motion.div
   variants={listVariants}
   animate="visible"
 
@@ -108,13 +108,16 @@ whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 
-  </motion.div>
+  </motion.div> */}
 </div>
 
 
 <div class="dropdown">
   <button class="dropbtn">
-    <p>Services</p>
+  <motion.p
+  
+  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+             transition={{style:'spring', stiffness:100}}>Services</motion.p>
 
 
     </button>
@@ -143,10 +146,45 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 <div class="dropdown">
   <button class="dropbtn">
-    <p>Portfolio</p>
+  <motion.p
+  
+  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+             transition={{style:'spring', stiffness:100}}>Portfolio</motion.p>
   
 
   </button>
+  {/* <div class="dropdown-content">
+  <a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+
+
+  </div> */}
+</div>
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">
+  <motion.p
+  
+  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+             transition={{style:'spring', stiffness:100}}>Case Studies</motion.p>
+  
+
+    </button>
   <div class="dropdown-content">
   <a href="#"><motion.p
 
@@ -168,11 +206,12 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 </div>
 
 
-
-
 <div class="dropdown">
   <button class="dropbtn">
-    <p>Case Studies</p>
+  <motion.p
+  
+  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+             transition={{style:'spring', stiffness:100}}>Team</motion.p>
   
 
     </button>
@@ -218,13 +257,13 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
  initial="hidden"
  animate="visible" className='navbar-items-right'>
 
-
+{/* 
     <div class="dropdown">
   <button class="dropbtn">
     <p>Services</p>
     </button>
 
-</div>
+</div> */}
 
 <button>Talk to experts</button>
     </motion.div>
