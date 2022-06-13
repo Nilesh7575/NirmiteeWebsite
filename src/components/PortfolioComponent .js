@@ -46,13 +46,13 @@ const PortfolioComponent = () => {
               style={{
                 textAlign: "center",
                 height: "max-content",
-                margin: "20px 0px",
+                margin: "40px 0px",
                 minWidth: "10px",
                 maxWidth: "400px",
                 height: "400px",
                 boxShadow:
                   " 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)",
-                background: "#fff",
+                background: "#FAFAFA",
                 borderRadius: "10px",
               }}
               className="gridInner"

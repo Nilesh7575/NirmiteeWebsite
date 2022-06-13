@@ -94,7 +94,7 @@ className='navbar-items-left-icons'>
 
   whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
   transition={{style:'spring', stiffness:100}}
-    > Link 1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam minima quisquam vel blanditiis in eos sint ad, consectetur consequatur nam quod ipsum! Ipsa odit laboriosam qui. Esse dolor vero ad.</motion.p>  </a>
+    > Link 1 </motion.p>  </a>
     
     <a href="#"><motion.p
 
