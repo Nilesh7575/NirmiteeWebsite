@@ -7,6 +7,7 @@ import Services from "./components/Services";
 
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
+import PortfolioComponent from "./components/PortfolioComponent ";
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
     <div className="App">
 
 
-      <Navbar />
+      <Navbar  />
       <Cover />
       <Services />
+      <PortfolioComponent/>
       <Footer />
 
       {/* <Router>
@@ -30,6 +32,7 @@ function App() {
       </Router> */}
 
 
+  
 
 
     </div>

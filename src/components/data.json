@@ -1,0 +1,47 @@
+{
+    "data": [
+      {
+        "id": "0",
+        "image": "/images/boongg.png",
+        "text": "The Web and Mobile apps, handle more than 3,00,000 users and more than 15+ franchisee partners",
+        "site": "Boongg.com",
+        "link": "https://www.boongg.com/Pune"
+      },
+      {
+        "id": "1",
+        "image": "/images/Byteseal.png",
+        "text": "Integrated Finger Print Sensor based device with Smart App for Password protection",
+        "site": "Byteseal",
+        "link": "https://nikhileshmw.wixsite.com/mysite-3"
+      },
+      {
+        "id": "2",
+        "image": "/images/cars4all.png",
+        "text": "Dual Language enabled, ultra fast web portal delivered in record TAT",
+        "site": "Cars4All",
+        "link": "https://www.cars4all.in/"
+      },
+      {
+        "id": "3",
+        "image": "/images/lkart.png",
+        "text": "Web Based Portal to manage the last mile delivery platform",
+        "site": "L-Kart",
+        "link": "https://shop.lkart.in/"
+      },
+      {
+        "id": "4",
+        "image": "/images/payTm.jpg",
+        "text": "Third-Party Integration",
+        "site": "PayTm Integration",
+        "link": "https://www.boongg.com/Pune"
+      },
+      {
+        "id": "5",
+        "image": "/images/phonePe.png",
+        "text": "Third-Party Integration",
+        "site": "PhonePe Integration",
+        "link": "https://www.boongg.com/Pune"
+      }
+    ]
+  }
+  

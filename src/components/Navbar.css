@@ -6,8 +6,9 @@
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     
-    height: 7vh;
-    background: black;
+    height: 9vh;
+    background: #FAFAFA;
+    
   }
   
   .navbar-items {
@@ -16,6 +17,7 @@
     display: flex;
     color: white;
     height: 100%;
+    align-items: center;
   }
   
  
@@ -88,8 +90,8 @@ bottom: 0px;
       align-items: center;
       display: flex;
       height: 6vh;
-      background-color: #04AA6D;
-      color: white;
+      background-color: black;
+      color: #f7f7f7;
       margin-right: 10% ;
       width: max-content;
     
@@ -105,8 +107,8 @@ bottom: 0px;
     align-items: center;
     display: flex;
     height: 6vh;
-    background-color: #1c1f1e;
-    color: white;
+    background-color: #FAFAFA;
+    color: #505050;
     margin-right: 2% ;
     padding: 15px;
     font-size: 16px;

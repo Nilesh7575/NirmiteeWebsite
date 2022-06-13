@@ -1,26 +1,28 @@
 .services {
-  height: 700px;
+  height: 110vh;
   width: 100%;
   background-color: black;
   text-align: center;
   color: white;
 }
 
+
+
 .tiles {
-  height: 90%;
+  height: 100%;
   width: 90%;
 
   grid-gap: 45px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: center;
-  padding: 30px 110px;
+  padding: 10px 80px;
 }
 
 .wrapper {
-  margin-top: 100px;
-  height: 80%;
-  width: 80%;
+  
+  height: 75%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,15 +37,15 @@
 }
 
 .wrapper h2 {
-  font-size: 28px;
+  font-size: 30px;
   line-height: 1.28;
-  font-weight: 500;
-  letter-spacing: 0.7px;
+  font-weight: 400;
+  
 }
 
 .wrapper p {
   font-size: 16px;
   margin-top: 0px;
-  padding: 0px 15px;
-  letter-spacing: 0.5px;
+  padding: 0px 10px;
+  letter-spacing: 0.7px;
 }
