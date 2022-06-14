@@ -1,5 +1,5 @@
 .services {
-  height: 110vh;
+  height: 130vh;
   width: 100%;
   background-color: black;
   text-align: center;
@@ -19,14 +19,14 @@
 
 
 .tiles {
-  height: 100%;
+  height: 90%;
   width: 90%;
-
+  margin-top: -30px;
   grid-gap: 45px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: center;
-  padding: 10px 80px;
+  padding: 0px 80px;
 }
 
 .wrapper {

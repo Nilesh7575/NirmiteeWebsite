@@ -8,6 +8,7 @@ import Services from "./components/Services";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import PortfolioComponent from "./components/PortfolioComponent ";
+import Service from './components/pages/Service'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar  />
       <Cover />
       <Services />
+      <Service/>
       <PortfolioComponent/>
       <Footer />
 
