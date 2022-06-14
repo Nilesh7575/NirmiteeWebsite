@@ -15,17 +15,17 @@ function Navbar() {
 
 
 
-  const containerVariants = {
-    hidden: {
-      opacity: 0,
+  // const containerVariants = {
+  //   hidden: {
+  //     opacity: 0,
   
-    },
-    visible: {
-      opacity: 1,
-      transition: 
-        {delay:1.0, duration:1.5}
-      },
-    }  
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     transition: 
+  //       {delay:1.0, duration:1.5}
+  //     },
+  //   }  
 
 
 
@@ -43,10 +43,10 @@ function Navbar() {
       <div className='navbar-items-left'>
 
      
-     
+      <Link className='navbar-items-left' to ="/">
         <img src={company} alt="" />
 
-
+</Link>
 
 
 
@@ -64,31 +64,34 @@ function Navbar() {
 
 
 <motion.div 
- variants={containerVariants}
+//  variants={containerVariants}
  initial="hidden"
  animate="visible"
 
 className='navbar-items-left-icons'>
-
+<Link to ="/">
 <div class="dropdown">
+
   <button class="dropbtn"> 
   <motion.p
   
-  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+  whileHover={{ color:'	#F0FFF0', originX: 0}}
              transition={{style:'spring', stiffness:100}}>Home</motion.p>
              
   {/* <img src={arrowdown} alt="" /> */}
   
   </button> 
+  
 
 </div>
+</Link>
 
 
 <div className="dropdown">
   <button class="dropbtn">
   <motion.p
   
-  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+  whileHover={{ color:'	#F0FFF0', originX: 0}}
              transition={{style:'spring', stiffness:100}}>Services</motion.p>
 
 
@@ -123,7 +126,9 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 <div className="row">
   <div className="column">
     <h4>PRODUCT DEVELOPMENT</h4>
-    <Link to ="/appDevelopment"><a href="#">Mobile App Development</a></Link>
+    <Link to ="/mobileappDevelopment">
+      <a href="#">Mobile App Development</a>
+      </Link>
     <a href="#">Web App Development</a>
     <a href="#">Internet of Things</a>
     <a href="#">MVP Learn Startup</a>
@@ -165,7 +170,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
   <button class="dropbtn">
   <motion.p
   
-  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+  whileHover={{ color:'	#F0FFF0', originX: 0}}
              transition={{style:'spring', stiffness:100}}>Portfolio</motion.p>
   
 
@@ -197,7 +202,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
   <button class="dropbtn">
   <motion.p
   
-  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+  whileHover={{ color:'	#F0FFF0', originX: 0}}
              transition={{style:'spring', stiffness:100}}>Case Studies</motion.p>
   
 
@@ -205,17 +210,17 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
   <div class="dropdown-content">
   <a href="#"><motion.p
 
-whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+whileHover={{ color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 <a href="#"><motion.p
 
-whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+whileHover={{ color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 <a href="#"><motion.p
 
-whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+whileHover={{ color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 
@@ -227,7 +232,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
   <button class="dropbtn">
   <motion.p
   
-  whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
+  whileHover={{ color:'	#F0FFF0', originX: 0}}
              transition={{style:'spring', stiffness:100}}>Team</motion.p>
   
 
@@ -270,7 +275,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
     <div className='navbar-empty-middle'></div>
 
     <motion.div 
- variants={containerVariants}
+//  variants={containerVariants}
  initial="hidden"
  animate="visible" className='navbar-items-right'>
 
@@ -282,7 +287,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 </div> */}
 
-<button>Talk to experts</button>
+<button>TALK TO OUR EXPERT</button>
     </motion.div>
 
     <div className='hamburger-menu-icon'><MobileNavigation/></div>

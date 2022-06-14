@@ -47,6 +47,7 @@ const PortfolioComponent = () => {
               style={{
                 textAlign: "center",
                 height: "max-content",
+                zIndex : "0",
                 margin: "20px 0px",
                 minWidth: "10px",
                 maxWidth: "400px",
