@@ -4,6 +4,7 @@ import "./Services.css";
 function Services() {
   return (
     <div className="services">
+      <div className="service"><span>Our Services</span></div>
       
       <div className="tiles">
         <div className="wrapper">
