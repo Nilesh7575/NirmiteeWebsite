@@ -123,7 +123,9 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 <div className="row">
   <div className="column">
     <h4>PRODUCT DEVELOPMENT</h4>
-    <Link to ="/appDevelopment"><a href="#">Mobile App Development</a></Link>
+    <Link to ="/appDevelopment">
+      <a href="#">Mobile App Development</a>
+      </Link>
     <a href="#">Web App Development</a>
     <a href="#">Internet of Things</a>
     <a href="#">MVP Learn Startup</a>
