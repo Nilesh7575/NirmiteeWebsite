@@ -122,27 +122,31 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 <div className="row">
   <div className="column">
     <h4>PRODUCT DEVELOPMENT</h4>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Mobile App DEVELOPMENT</a>
+    <a href="#">Web App Development</a>
+    <a href="#">Internet of Things</a>
+    <a href="#">MVP Learn Startup</a>
+    <a href="#">UI/UX Design and Development</a>
   </div>
   <div class="column">
     <h4>GROWTH HACKING TECHNOLOGIES</h4>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">DevOps</a>
+    <a href="#">Data Science</a>
+    <a href="#">Big Data Technologies</a>
+    <a href="#">Machnine Learning</a>
+    <a href="#">Arficial Intelligence</a>
   </div>
   <div className="column">
     <h4>CLOUD SERVICES</h4>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Cloud Services</a>
+    <a href="#">AWS Serverless Architecture</a>
+    <a href="#">Google Cloud Services</a>
   </div>
   <div className="column">
     <h4>INTEGRATIONS</h4>
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Phonepe-switch Intergrations</a>
+    <a href="#">Paytm Mini-apps Integrations</a>
+    <a href="#">Payment Gateway Integrations</a>
   </div>
 </div>
 </div>
@@ -227,7 +231,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
   
 
     </button>
-  <div class="dropdown-content">
+  {/* <div class="dropdown-content">
   <a href="#"><motion.p
 
 whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
@@ -244,7 +248,7 @@ whileHover={{scale:1.05, color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 
-  </div>
+  </div> */}
 </div>
 
 
