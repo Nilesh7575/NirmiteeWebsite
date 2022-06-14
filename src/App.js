@@ -3,11 +3,12 @@ import Cover from "./components/Cover";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import PortfolioComponent from "./components/PortfolioComponent ";
+import Service from "./components/pages/Service";
 
 
 function App() {
@@ -15,21 +16,22 @@ function App() {
     <div className="App">
 
 
-      <Navbar  />
+      {/* <Navbar  />
       <Cover />
       <Services />
       <PortfolioComponent/>
-      <Footer />
+      <Footer /> 
+        */}
 
-      {/* <Router>
+      <Router>
         <Navbar />
         <Switch>
           <Route path="/">
-            <Cover />
-            <Services />
+          <Service/>
           </Route>
         </Switch>
-      </Router> */}
+        <Footer/>
+      </Router>
 
 
   
