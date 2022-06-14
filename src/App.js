@@ -7,15 +7,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
-import PortfolioComponent from "./components/PortfolioComponent ";
-import Service from './components/pages/Service'
-
+import PortfolioComponent from "./components/PortfolioComponent/PortfolioComponent ";
+import Service from "./components/pages/Service";
 
 function App() {
   return (
     <div className="App">
-
-
       {/* <Navbar  />
       <Cover />
       <Services />
@@ -26,22 +23,17 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route path="/appDevelopment">
-            <Service/>
+          <Route path="/appDevelopment">
+            <Service />
           </Route>
           <Route path="/">
             <Cover />
             <Services />
-            <PortfolioComponent/>
+            <PortfolioComponent />
           </Route>
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
-
-
-  
-
-
     </div>
   );
 }

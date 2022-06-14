@@ -16,7 +16,6 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 const PortfolioComponent = () => {
-  
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -34,14 +33,14 @@ const PortfolioComponent = () => {
             background: "#f3f3ff",
           }}
         >
-          <h2 class="text-center">Our Impressive Portfolio</h2>
+          <h2 class="text-center prevent-select ">Our Impressive Portfolio</h2>
 
           {data.data.map((item, index) => (
             <Grid
               item
-              xs={6}
+              xs={12}
               sm={6}
-              md={4}
+              md={6}
               lg={4}
               key={index}
               spacing={4}
@@ -57,8 +56,7 @@ const PortfolioComponent = () => {
                 background: "white",
                 borderRadius: "16px",
               }}
-             
-              className="gridInner" 
+              className="gridInner"
             >
               <div
                 style={{
@@ -81,7 +79,7 @@ const PortfolioComponent = () => {
                 >
                   {" "}
                   <h4
-                    className="h4Text"
+                    className="h4Text prevent-select "
                     style={{
                       margin: "0px",
                       padding: " 0px",
@@ -104,10 +102,10 @@ const PortfolioComponent = () => {
                     marginBottom: "10px",
                   }}
                 >
-                  <p className="sitePortfolio"> {item.site}</p>
+                  <p className="sitePortfolio prevent-select "> {item.site}</p>
 
                   <div
-                    className="visitButton btn"
+                    className="visitButton btn prevent-select "
                     size="small"
                     color="primary"
                     onClick={() => window.open(item.link)}
