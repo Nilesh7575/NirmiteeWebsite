@@ -35,7 +35,9 @@
   width: 50vw;
   height: 5vh;
   margin-right: 550px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  
+  
   
   
   }
@@ -53,7 +55,9 @@
 
 position: absolute;
 width: 25vh;
-left: -50px;
+
+left: -10px;
+
 
 
   }
@@ -98,18 +102,20 @@ bottom: 0px;
 
       align-items: center;
       display: flex;
-      height: 6vh;
+      height: 7vh;
       background-color: rgb(20, 20, 20);
       color: #f7f7f7;
       margin-right: 10% ;
       width: max-content;
       justify-content: center;
       text-align: center;
-      width: 170px;
+      width: 200px;
     
-      font-size: 16px;
+      font-size: 17px;
       border: none;
-      font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+      font-family: "Hind Vadodara";
+      
+      
 
   }
 
@@ -131,7 +137,8 @@ bottom: 0px;
     transition: 0.3s;
     color: #2c2c2c;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "Hind Vadodara";
   }
 
  
@@ -168,7 +175,7 @@ bottom: 0px;
   
   .dropdown:hover .dropdown-content  {display: block; }
   .dropdown:hover .dropdown1-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #e8eee8; color: black; border-bottom: 4px solid gray; }
+  .dropdown:hover .dropbtn {background-color: #FAFAFA; color: black;  }
 
 
 
@@ -203,13 +210,14 @@ bottom: 0px;
 .dropdown1-content {
   display: none;
   position:absolute;
-  border-radius: 10px;
   /* background-color: #f9f9f9; */
+  margin-top: 10px;
   width: 90vw;
-  left: -20vw;
+  left: -15vw;
   height: 25vh;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 /* .dropdown1-content .header {
@@ -244,7 +252,7 @@ bottom: 0px;
 }
 
 .column a {
-  font-family: "Hind Vadodara",sans-serif;
+  font-family: "Hind Vadodara";
   float: none;
   color: #69798d!important;
   padding: 7px 0px;
@@ -258,7 +266,7 @@ bottom: 0px;
 
 
 .column h4 {
-  font-family: "Fira Sans",sans-serif;
+  font-family: "Fira Sans";
   color: #172b43;
   transition: all .5s;
   font-size: 17px;

@@ -26,7 +26,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route path="/appDevelopment">
+        <Route path="/mobileAppDevelopment">
             <Service/>
           </Route>
           <Route path="/">
