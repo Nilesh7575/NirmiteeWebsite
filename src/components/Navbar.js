@@ -6,6 +6,7 @@ import MobileNavigation from './MobileNavigation'
 import { Fade as Hamburger } from 'hamburger-react'
 import Services from './Services-Navbar'
 import { motion } from "framer-motion";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
 
@@ -122,7 +123,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 <div className="row">
   <div className="column">
     <h4>PRODUCT DEVELOPMENT</h4>
-    <a href="#">Mobile App DEVELOPMENT</a>
+    <Link to ="/appDevelopment"><a href="#">Mobile App Development</a></Link>
     <a href="#">Web App Development</a>
     <a href="#">Internet of Things</a>
     <a href="#">MVP Learn Startup</a>

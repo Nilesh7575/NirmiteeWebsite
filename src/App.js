@@ -3,7 +3,7 @@ import Cover from "./components/Cover";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
@@ -16,22 +16,27 @@ function App() {
     <div className="App">
 
 
-      <Navbar  />
+      {/* <Navbar  />
       <Cover />
       <Services />
       <Service/>
       <PortfolioComponent/>
-      <Footer />
+      <Footer /> */}
 
-      {/* <Router>
+      <Router>
         <Navbar />
         <Switch>
+        <Route path="/appDevelopment">
+            <Service/>
+          </Route>
           <Route path="/">
             <Cover />
             <Services />
+            <PortfolioComponent/>
           </Route>
         </Switch>
-      </Router> */}
+        <Footer/>
+      </Router>
 
 
   
