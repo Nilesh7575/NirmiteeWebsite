@@ -14,8 +14,8 @@ const Cover = () => {
                         and help us develop a more relevant version of your requirements,
                         adding a cutting edge to our deliveries</h3>
                     <div className='button'>
-                    <a class="btn" href="/" >TALK TO OUR EXPERT</a>
-                    <a class="btn" href="/" >VIEW OUR PORTFOLIO</a>
+                    <span class="btn" href="/" >TALK TO OUR EXPERT</span>
+                    <span class="btn" href="/" >VIEW OUR PORTFOLIO</span>
                     </div>
                 </div>
             </div>

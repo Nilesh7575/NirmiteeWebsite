@@ -287,7 +287,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 </div> */}
 
-<button>Talk to experts</button>
+<button>TALK TO OUR EXPERT</button>
     </motion.div>
 
     <div className='hamburger-menu-icon'><MobileNavigation/></div>
