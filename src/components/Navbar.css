@@ -214,10 +214,9 @@ bottom: 0px;
 
 /* Create three equal columns that floats next to each other */
 .column {
-  opacity: 0.9;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-right:1px solid rgb(34, 34, 34) ;
+  
+  
+  
   border-top: 1px solid rgb(34, 34, 34);
   float: left;
   width: 23%;
