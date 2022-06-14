@@ -16,7 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 const PortfolioComponent = () => {
-  const [isShown, setIsShown] = useState(false);
+  
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -34,6 +34,8 @@ const PortfolioComponent = () => {
             background: "#f3f3ff",
           }}
         >
+          <h2 class="text-center">Our Impressive Portfolio</h2>
+
           {data.data.map((item, index) => (
             <Grid
               item
@@ -52,10 +54,11 @@ const PortfolioComponent = () => {
                 height: "400px",
                 boxShadow:
                   " 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)",
-                background: "#fff",
-                borderRadius: "10px",
+                background: "white",
+                borderRadius: "16px",
               }}
-              className="gridInner"
+             
+              className="gridInner" 
             >
               <div
                 style={{
@@ -63,6 +66,7 @@ const PortfolioComponent = () => {
                   flexDirection: "column",
                   justifyContent: "space-evenly",
                   alignItems: "center",
+                  zIndex: "12",
                 }}
               >
                 <img className="portfolioImage" src={item.image} />
@@ -77,7 +81,7 @@ const PortfolioComponent = () => {
                 >
                   {" "}
                   <h4
-                    className="h4Taxt"
+                    className="h4Text"
                     style={{
                       margin: "0px",
                       padding: " 0px",
@@ -94,15 +98,16 @@ const PortfolioComponent = () => {
                     display: "flex",
                     justifyContent: "space-between",
                     alignItems: "center",
-                    width: "100%",
+                    width: "97%",
 
                     height: "fit-content",
+                    marginBottom: "10px",
                   }}
                 >
                   <p className="sitePortfolio"> {item.site}</p>
 
                   <div
-                  className="visitButton btn"
+                    className="visitButton btn"
                     size="small"
                     color="primary"
                     onClick={() => window.open(item.link)}
