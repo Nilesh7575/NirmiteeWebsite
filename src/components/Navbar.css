@@ -60,6 +60,7 @@ position: absolute;
 width: 25vh;
 
 left: -10px;
+cursor: pointer;
 
 
 
@@ -144,6 +145,7 @@ bottom: 0px;
     font-weight: 400;
     font-size: 17px;
     font-family: "Hind Vadodara";
+    cursor: pointer;
   }
 
  
@@ -220,8 +222,9 @@ bottom: 0px;
   width: 90vw;
   left: -15vw;
   height: 25vh;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
   z-index: 1;
+  ;
   
 }
 
@@ -235,7 +238,8 @@ bottom: 0px;
   display: block;
 }
 .row {
-  border-radius: 10px;
+ 
+  
 }
 
 .row > * {
@@ -253,7 +257,7 @@ bottom: 0px;
   padding: 10px;
   background-color: #FAFAFA;
   height: 250px;
-  
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
 }
 
 .column a {

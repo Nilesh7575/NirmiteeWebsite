@@ -8,10 +8,15 @@ import Services from './Services-Navbar'
 import { motion } from "framer-motion";
 import {Link} from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
+  const scrollBottom = e => {
+    e.current.scrollIntoView({
+      behavior: "smooth"
+    });
+  };
 
 
-  const [isOpen, setOpen] = useState(true);
+  
 
 
 
@@ -167,7 +172,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 
 <div class="dropdown">
-  <button class="dropbtn">
+  <button class="dropbtn" onClick={() => scrollBottom(props.scrollRef)}>
   <motion.p
   
   whileHover={{ color:'	#F0FFF0', originX: 0}}
@@ -287,7 +292,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
 </div> */}
 
-<button>TALK TO OUR EXPERT</button>
+<button >TALK TO OUR EXPERT</button>
     </motion.div>
 
     <div className='hamburger-menu-icon'><MobileNavigation/></div>
