@@ -15,6 +15,11 @@ function Navbar(props) {
     });
   };
 
+  const scrollTop = e => {
+    e.current.scrollIntoView({
+      behavior: "smooth"
+    });
+  };
 
   
 
@@ -77,7 +82,7 @@ className='navbar-items-left-icons'>
 <Link to ="/">
 <div class="dropdown">
 
-  <button class="dropbtn"> 
+  <button class="dropbtn" onClick={() => scrollTop(props.scrollHome)}> 
   <motion.p
   
   whileHover={{ color:'	#F0FFF0', originX: 0}}

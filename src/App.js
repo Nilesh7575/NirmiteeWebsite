@@ -14,6 +14,7 @@ import Service from './components/pages/Service'
 
 function App() {
   const scrollRef = useRef()
+  const scrollHome = useRef()
   
   return (
     <div className="App">
@@ -27,13 +28,13 @@ function App() {
       <Footer /> */}
 
       <Router>
-        <Navbar scrollRef = {scrollRef} />
+        <Navbar scrollRef = {scrollRef} scrollHome = {scrollHome} />
         <Switch>
         <Route path="/mobileAppDevelopment">
             <Service/>
           </Route>
           <Route path="/">
-            <Cover scrollRef = {scrollRef}/>
+            <div ref = {scrollHome}><Cover scrollRef = {scrollRef}/></div>
             <Services />
             <div ref={scrollRef}>
             
