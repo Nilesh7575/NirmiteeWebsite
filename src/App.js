@@ -15,11 +15,11 @@ function App() {
     <div className="App">
 
 
-      <Navbar  />
+      {/* <Navbar  />
       <Cover />
       <Services />
       <PortfolioComponent/>
-      <Footer />
+      <Footer /> */}
 
       {/* <Router>
         <Navbar />
