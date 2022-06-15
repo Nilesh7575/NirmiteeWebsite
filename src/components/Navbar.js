@@ -302,10 +302,10 @@ transition={{style:'spring', stiffness:100}}>Real Estate</motion.p> </a>
 
 <div class="dropdown">
   <button class="dropbtn">
-  <motion.p
+  <a href="https://www.nirmitee.io/team"><motion.p
   
   whileHover={{ color:'	#F0FFF0', originX: 0}}
-             transition={{style:'spring', stiffness:100}}>Team</motion.p>
+             transition={{style:'spring', stiffness:100}}>Team</motion.p></a>
   
 
     </button>
