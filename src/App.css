@@ -1,5 +1,9 @@
 /* .App {
   text-align: center;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  
 }
 
 .App-logo {
@@ -37,67 +41,3 @@
   }
 }
 
- */
-
-
-
-
-* {
-  width: 100%;
-  height: 100%;
-}
-
-/* styling for navbar */
-
-
-.navbar {
-  width: 100%;
-  margin: 1% 0;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  
-  height: 7%;
-  background: black;
-}
-
-.navbar-items {
-  width: 100%;
-
-  display: flex;
-  color: white;
-}
-
-.navbar-items > img {
-  width: 10%;
-}
-
-
-.navbar-items-left {
-  display: flex;
-  text-align: center;
-width: 50%;
-
-}
-
-.navbar-items-left > * {
-  margin-right: 10px;
-  align-items: right;
-}
-
-
-.navbar-empty-middle {
-  width: 30%;
-}
-
-
-.navbar-items-right {
-  display: flex;
-  width: 20%;
-  
-  
-}
-
-.navbar-items-right > button {
-    border-radius: 15px;
-    cursor: pointer;
-}

@@ -1,0 +1,108 @@
+.footer-div{
+    background-color: #FAFAFA;
+    z-index: 0;
+    position: relative;
+    /* width: 100%; */
+    margin: 0;
+    padding: 30px;
+    color: #505050;  
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    font-weight: 400;
+    /* margin-bottom: 2.1rem; */
+    color: #505050;
+}
+
+.container{
+    padding:3rem;
+}
+
+.mail-contact{
+    text-decoration: none;
+    color: #505050;
+    font-size: 14px;
+}
+
+.Footer_social{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.social-icon{
+    color: #505050;
+    font-size: 14px;
+}
+
+.footer-head-line{
+    border-radius: 24px;
+    height: 3px;
+    width: 60px;
+    background-color: #99ca3c;
+    margin-bottom: 10px;
+}
+
+.footer_quick-links div a{
+    text-decoration: none;
+    color: #505050;
+    font-size: 14px;
+}
+
+.about-us-para{
+    font-size: 14px;
+}
+
+.copyright-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.copy-icon{
+    color: #505050;
+    font-size: 14px;
+    /* margin-top: 5px; */
+}
+
+.footer-main-div{
+    display: flex;
+}
+
+.footer-inner-div{
+    width: 30%;
+    text-align: left;
+}
+
+.footer-inner-div div a{
+    color: #505050;
+    text-decoration: none;
+}
+
+.footer-inner-div div{
+    margin-bottom: 10px;
+}
+
+.contact-us-div{
+    display: flex;
+    align-items: center;
+    height : 2rem;
+}
+
+.contact-us-div span{
+    margin-top:5px;
+    margin-right: 3px;;
+}
+
+.footer_quick-links div a span{
+    font-size:15.5px;
+}
+
+.footer_quick-links div a {
+    font-size:15.5px;
+}
