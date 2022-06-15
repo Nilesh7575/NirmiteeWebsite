@@ -1,23 +1,20 @@
 .services {
-  height: 130vh;
+  height: 120vh;
   width: 100%;
   background-color: black;
   text-align: center;
   color: white;
 }
 
-.service{
+.service {
   padding-top: 30px;
   font-size: 55px;
   font-weight: 700;
 }
 
-.service span{
-  
+.service span {
   color: rgba(255, 254, 255, 0.805);
 }
-
-
 
 .tiles {
   height: 90%;
@@ -31,7 +28,6 @@
 }
 
 .wrapper {
-  
   height: 75%;
   width: 90%;
   display: flex;
@@ -48,14 +44,13 @@
 }
 
 .wrapper h2 {
-  font-size: 30px;
+  font-size: 32px;
   line-height: 1.28;
   font-weight: 400;
-  
 }
 
 .wrapper p {
-  font-size: 16px;
+  font-size: 17px;
   margin-top: 0px;
   padding: 0px 10px;
   letter-spacing: 0.7px;
