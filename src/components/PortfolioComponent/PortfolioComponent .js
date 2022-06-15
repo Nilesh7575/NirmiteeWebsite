@@ -28,6 +28,7 @@ const PortfolioComponent = () => {
             justifyContent: "space-evenly",
             flexWrap: "wrap",
             margin: "0px 0px",
+
             height: "auto",
             width: "100%",
             background: "#f3f3ff",
@@ -45,17 +46,17 @@ const PortfolioComponent = () => {
               key={index}
               spacing={4}
               style={{
-                textAlign: "center",
-                height: "max-content",
-                zIndex : "0",
                 margin: "20px 0px",
                 minWidth: "10px",
                 maxWidth: "400px",
-                height: "400px",
+                height: "405px",
                 boxShadow:
                   " 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)",
                 background: "white",
-                borderRadius: "16px",
+                borderRadius: "25px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
               }}
               className="gridInner"
             >
@@ -63,9 +64,11 @@ const PortfolioComponent = () => {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  justifyContent: "space-evenly",
+                  justifyContent: "center",
                   alignItems: "center",
                   zIndex: "12",
+
+                  width: "99%",
                 }}
               >
                 <img className="portfolioImage" src={item.image} />
@@ -82,10 +85,14 @@ const PortfolioComponent = () => {
                   <h4
                     className="h4Text prevent-select "
                     style={{
-                      margin: "0px",
+                      margin: "10px",
                       padding: " 0px",
-                      height: "fit-content",
+                      height: "85px",
+                      width: "100%",
                       textAlign: "left",
+                      display : "flex",
+                      alignItems : "center",
+                      justifyContent : "flex-start"
                     }}
                   >
                     {item.text}
@@ -99,8 +106,8 @@ const PortfolioComponent = () => {
                     alignItems: "center",
                     width: "97%",
 
-                    height: "fit-content",
-                    marginBottom: "10px",
+                    height: "20%",
+                    marginBottom: "0px",
                   }}
                 >
                   <p className="sitePortfolio prevent-select "> {item.site}</p>
