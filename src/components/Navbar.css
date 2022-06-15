@@ -60,6 +60,7 @@ position: absolute;
 width: 25vh;
 
 left: -10px;
+cursor: pointer;
 
 
 
@@ -144,9 +145,22 @@ bottom: 0px;
     font-weight: 400;
     font-size: 17px;
     font-family: "Hind Vadodara";
+    cursor: pointer;
   }
 
+  .dropbtn > a {
+    text-decoration: none;
+  }
+
+  .dropbtn > a:visited {
+    color: #2c2c2c;
+  }
  
+  .dropbtn > a:hover {
+    color: #2c2c2c;
+  }
+ 
+
   
   .dropdown {
     position: relative;
@@ -156,29 +170,36 @@ bottom: 0px;
     height: 6vh;
    
   }
+
+  
+
   
   .dropdown-content {
     display: none;
     border-radius: 10px;
     position: absolute;
-   
-    background-color: black;
+ 
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 
   }
+
+  .dropdown-content h4 {
+    color: black;
+  }
   
   .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
+    color:#69798d!important;;
+    padding: 4px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #39403a; color: white;}
+  .dropdown-content a:hover {background-color: rgb(239, 239, 239); }
   
-  .dropdown:hover .dropdown-content  {display: block; }
+  .dropdown:hover .dropdown-content  {display: block;  }
   .dropdown:hover .dropdown1-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #FAFAFA; color: black;  }
 
@@ -220,8 +241,9 @@ bottom: 0px;
   width: 90vw;
   left: -15vw;
   height: 25vh;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
   z-index: 1;
+  ;
   
 }
 
@@ -235,7 +257,8 @@ bottom: 0px;
   display: block;
 }
 .row {
-  border-radius: 10px;
+ 
+  
 }
 
 .row > * {
@@ -253,7 +276,7 @@ bottom: 0px;
   padding: 10px;
   background-color: #FAFAFA;
   height: 250px;
-  
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
 }
 
 .column a {

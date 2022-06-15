@@ -4,7 +4,13 @@ import './cover.css'
 
 
 
-const Cover = () => {
+const Cover = (props) => {
+    const scrollBottom = e => {
+        e.current.scrollIntoView({
+          behavior: "smooth"
+        });
+      };
+    
     return (
         <div className='banner'>
             <div className='container'>
@@ -15,7 +21,7 @@ const Cover = () => {
                         adding a cutting edge to our deliveries</h3>
                     <div className='button'>
                     <span class="btn" href="/" >TALK TO OUR EXPERT</span>
-                    <span class="btn" href="/" >VIEW OUR PORTFOLIO</span>
+                    <span class="btn" href="/" onClick={() => scrollBottom(props.scrollRef)} >VIEW OUR PORTFOLIO</span>
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import "./App.css";
 import Cover from "./components/Cover";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
+import { useRef } from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -12,6 +13,9 @@ import Service from './components/pages/Service'
 
 
 function App() {
+  const scrollRef = useRef()
+  const scrollHome = useRef()
+  
   return (
     <div className="App">
 
@@ -24,15 +28,17 @@ function App() {
       <Footer /> */}
 
       <Router>
-        <Navbar />
+        <Navbar scrollRef = {scrollRef} scrollHome = {scrollHome} />
         <Switch>
         <Route path="/mobileAppDevelopment">
             <Service/>
           </Route>
           <Route path="/">
-            <Cover />
+            <div ref = {scrollHome}><Cover scrollRef = {scrollRef}/></div>
             <Services />
-            <PortfolioComponent/>
+            <div ref={scrollRef}>
+            
+            <PortfolioComponent/></div>
           </Route>
         </Switch>
         <Footer/>
