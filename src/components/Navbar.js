@@ -217,22 +217,84 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
   
 
     </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="dropdown-content">
+
+
+  <a href="#"><motion.h4
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>ALL CASE STUDIES</motion.h4> </a>
+
+
   <a href="#"><motion.p
 
 whileHover={{ color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+transition={{style:'spring', stiffness:100}}>Fintech</motion.p> </a>
 
 <a href="#"><motion.p
 
 whileHover={{ color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+transition={{style:'spring', stiffness:100}}>Logistics</motion.p> </a>
 
 <a href="#"><motion.p
 
 whileHover={{ color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
+transition={{style:'spring', stiffness:100}}>Advertisement</motion.p> </a>
 
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Health Care</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>E-Commerce</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Agriculture</motion.p> </a>
+
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>
+Last Mile Delivery</motion.p> </a>
+
+
+
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Last Mile Delivery</motion.p> </a>
+
+
+
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Retail</motion.p> </a>
+
+
+<a href="#"><motion.p
+
+whileHover={{ color:'	#F0FFF0', originX: 0}}
+transition={{style:'spring', stiffness:100}}>Real Estate</motion.p> </a>
 
   </div>
 </div>

@@ -163,22 +163,26 @@ bottom: 0px;
     display: none;
     border-radius: 10px;
     position: absolute;
-   
-    background-color: black;
+ 
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 
   }
+
+  .dropdown-content h4 {
+    color: black;
+  }
   
   .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
+    color:#69798d!important;;
+    padding: 4px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #39403a; color: white;}
+  .dropdown-content a:hover {background-color: rgb(239, 239, 239); }
   
   .dropdown:hover .dropdown-content  {display: block; }
   .dropdown:hover .dropdown1-content {display: block;}
