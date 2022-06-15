@@ -1,25 +1,21 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { useRef } from "react";
 import "./App.css";
+
 import Cover from "./components/Cover";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
-import { useRef } from "react";
-
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
 import PortfolioComponent from "./components/PortfolioComponent/PortfolioComponent ";
-import Service from './components/pages/Service'
-
+import Service from "./components/pages/Service";
+import TeamComponent from "./components/TeamComponent/TeamComponent";
 
 function App() {
-  const scrollRef = useRef()
-  const scrollHome = useRef()
-  
+  const scrollRef = useRef();
+  const scrollHome = useRef();
+
   return (
     <div className="App">
-
-
       {/* <Navbar  />
       <Cover />
       <Services />
@@ -28,26 +24,26 @@ function App() {
       <Footer /> */}
 
       <Router>
-        <Navbar scrollRef = {scrollRef} scrollHome = {scrollHome} />
+        <Navbar scrollRef={scrollRef} scrollHome={scrollHome} />
         <Switch>
-        <Route path="/mobileAppDevelopment">
-            <Service/>
+          <Route path="/team">
+            <TeamComponent />
+          </Route>
+          <Route path="/mobileAppDevelopment">
+            <Service />
           </Route>
           <Route path="/">
-            <div ref = {scrollHome}><Cover scrollRef = {scrollRef}/></div>
+            <div ref={scrollHome}>
+              <Cover scrollRef={scrollRef} />
+            </div>
             <Services />
             <div ref={scrollRef}>
-            
-            <PortfolioComponent/></div>
+              <PortfolioComponent />
+            </div>
           </Route>
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
-
-
-  
-
-
     </div>
   );
 }

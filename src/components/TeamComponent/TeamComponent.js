@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./PortfolioComponent.css";
+import "./TeamComponent.css";
 import { experimentalStyled as styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-const PortfolioComponent = () => {
+const TeamComponent = () => {
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -28,13 +28,13 @@ const PortfolioComponent = () => {
             justifyContent: "space-evenly",
             flexWrap: "wrap",
             margin: "0px 0px",
-            paddingBottom: "50px",
+            padding: "100px 0px 50px 0px",
             height: "auto",
             width: "100%",
             background: "#f3f3ff",
           }}
         >
-          <h2 class="text-center prevent-select ">Our Impressive Portfolio</h2>
+          <h2 class="text-center prevent-select ">Our Creative Team</h2>
 
           {data.data.map((item, index) => (
             <Grid
@@ -71,7 +71,7 @@ const PortfolioComponent = () => {
                   width: "99%",
                 }}
               >
-                <img className="portfolioImage" src={item.image} />
+                <img id="portfolioImage" src={item.image} />
 
                 <div
                   style={{
@@ -130,4 +130,4 @@ const PortfolioComponent = () => {
   );
 };
 
-export default PortfolioComponent;
+export default TeamComponent;
