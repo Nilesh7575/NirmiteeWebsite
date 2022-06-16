@@ -26,9 +26,6 @@
   z-index: 0;
   
 }
-.gridInner:hover {
-  background: rgb(222, 220, 220) !important;
-}
 .gridInner:hover::before {
   content: "";
   position: absolute;

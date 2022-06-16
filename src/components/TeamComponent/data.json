@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "image": "/images/YogeshDaga.png",
+
+      "Name": "Yogesh Daga",
+      "Designation": "HEAD"
+    },
+
+    
+    {
+      "id": "1",
+      "image": "/images/AkshayPatil.png",
+
+      "Name": "Akshay Patil",
+      "Designation": "MEARN Stack Developer"
+    },
+    {
+      "id": "2",
+      "image": "/images/JitendraChowdhary.png",
+
+      "Name": "Jitendra Choudhary",
+      "Designation": "Full Stack Developer"
+    },
+    {
+      "id": "3",
+      "image": "/images/PratikPanda.png",
+
+      "Name": "Pratik Panda",
+      "Designation": "UI/UX Designer"
+    },
+    {
+      "id": "4",
+      "image": "/images/AtharvaChavan.jpg",
+
+      "Name": "Atharva Chavan",
+      "Designation": "Full-Stack Developer"
+    },
+    {
+      "id": "5",
+      "image": "/images/RohitPardeshi.png",
+
+      "Name": "Rohit Pardeshi",
+      "Designation": "MEARN Stack Developer"
+    },
+    {
+      "id": "6",
+      "image": "/images/Vaishnavi.png",
+
+      "Name": "Vaishnavi Pothuraju",
+      "Designation": "UI/UX & Graphic Designer"
+    }
+   
+  ]
+}

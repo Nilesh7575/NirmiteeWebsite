@@ -1,9 +1,9 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import data from "./data.json";
-import "./PortfolioComponent.css";
+import "./TeamComponent.css";
 
-const PortfolioComponent = () => {
+const TeamComponent = () => {
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -16,13 +16,13 @@ const PortfolioComponent = () => {
             justifyContent: "space-evenly",
             flexWrap: "wrap",
             margin: "0px 0px",
-            paddingBottom: "50px",
+            padding: "100px 0px 50px 0px",
             height: "auto",
             width: "100%",
             background: "#f3f3ff",
           }}
         >
-          <h2 class="text-center prevent-select ">Our Impressive Portfolio</h2>
+          <h2 class="text-center prevent-select ">Our Creative Team</h2>
 
           {data.data.map((item, index) => (
             <Grid
@@ -34,20 +34,39 @@ const PortfolioComponent = () => {
               key={index}
               spacing={4}
               style={{
+                position: "relative",
                 margin: "20px 0px",
-                minWidth: "10px",
-                maxWidth: "400px",
+
+                maxWidth: "380px",
                 height: "405px",
+                zIndex: "0",
                 boxShadow:
                   " 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)",
                 background: "white",
                 borderRadius: "25px",
                 display: "flex",
+                flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
+                alignContent: "center",
               }}
-              className="gridInner"
             >
+              <div class="top-bar"></div>
+              <div class="a-box" style={{ marginRight: "17px" }}>
+                <div class="img-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img style={{ marginLeft: "0px" }} src={item.image} />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-container">
+                  <h3>{item.Name}</h3>
+                  <h4>{item.Designation}</h4>
+                </div>
+              </div>
+              {/* <div class="top-bar"></div>
               <div
                 style={{
                   display: "flex",
@@ -57,15 +76,15 @@ const PortfolioComponent = () => {
                   zIndex: "12",
 
                   width: "99%",
-
-                  marginRight: "15px",
+                 
                 }}
               >
-                <img className="portfolioImage" src={item.image} />
+                <img id="portfolioImage" src={item.image} />
 
                 <div
                   style={{
                     display: "flex",
+                    flexDirection: "column",
                     justifyContent: "space-evenly",
                     alignItems: "center",
                     width: "98%",
@@ -73,45 +92,38 @@ const PortfolioComponent = () => {
                 >
                   {" "}
                   <h4
-                    className="h4Text prevent-select "
+                    className="sitePortfolio prevent-select "
+                    style={{
+                      margin: "10px",
+                      padding: " 0px",
+                      height: "fit-content",
+                      width: "100%",
+                      textAlign: "center",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {item.Name}
+                  </h4>
+                  <h4
+                    className="sitePortfolio prevent-select "
                     style={{
                       margin: "10px",
                       padding: " 0px",
                       height: "85px",
                       width: "100%",
-                      textAlign: "left",
+                      textAlign: "center",
                       display: "flex",
                       alignItems: "center",
-                      justifyContent: "flex-start",
+                      justifyContent: "center",
+                      fontWeight : "600"
                     }}
                   >
-                    {item.text}
+                    {item.Designation}
                   </h4>
                 </div>
-
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "95%",
-
-                    height: "20%",
-                    marginBottom: "0px",
-                  }}
-                >
-                  <p className="sitePortfolio prevent-select "> {item.site}</p>
-
-                  <div
-                    className="visitButton btn prevent-select "
-                    size="small"
-                    color="primary"
-                    onClick={() => window.open(item.link)}
-                  >
-                    Visit
-                  </div>
-                </div>
-              </div>
+              </div> */}
             </Grid>
           ))}
         </Grid>
@@ -120,4 +132,4 @@ const PortfolioComponent = () => {
   );
 };
 
-export default PortfolioComponent;
+export default TeamComponent;
