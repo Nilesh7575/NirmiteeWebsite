@@ -2,10 +2,12 @@
   overflow: hidden;
 }
 #portfolioImage {
-  max-width: "385px";
-  width: 100%;
+  width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
 }
 .h4Text {
   font-family: "Fira Sans", sans-serif;
@@ -17,47 +19,10 @@
   margin: 0;
 }
 
-.gridInner {
-  position: relative;
-
-  overflow: hidden;
-  z-index: 0;
-}
-.gridInner:hover {
-  background: rgb(222, 220, 220) !important;
-}
-.gridInner:hover::before {
-  content: "";
-  position: absolute;
-  inset: -10px 140px;
-  height: 500px;
-  background: linear-gradient(315deg, #04bdff, #014cba);
-  transition: 0.5s;
-  animation: animate 4s linear infinite;
-  z-index: -500;
-}
-
-.gridInner:hover::after {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: white;
-  border-radius: 25px;
-  z-index: -499;
-}
-@keyframes animate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .sitePortfolio {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   text-align: center;
   font-size: 1rem;
   font-family: "Fira Sans", sans-serif;
@@ -96,3 +61,64 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+.top-bar {
+  width: 50%;
+  height: 5px;
+  background: #507bfc;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.img-container {
+  height: 230px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
+}
+
+.img-container img {
+  height: 250px;
+  margin: -35px 0px 0px -70px;
+}
+
+.inner-skew {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+  width: 290px;
+  /* border : 1px solid red */
+}
+
+.text-container h3 {
+  margin: 20px 0px 10px 0px;
+  color: #0593c6;
+  font-size: 22px;
+  /* border : 1px solid red */
+}
+
+.text-container h4 {
+  margin: 20px 0px 10px 0px;
+  color: #0351b0;
+  font-size: 16px;
+  /* border : 1px solid red */
+}
+

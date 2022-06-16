@@ -1,19 +1,7 @@
-import { useState } from "react";
-import "./PortfolioComponent.css";
-import { experimentalStyled as styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-
 import data from "./data.json";
-
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-  ...theme.typography.body2,
-  padding: theme.spacing(2),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
+import "./PortfolioComponent.css";
 
 const PortfolioComponent = () => {
   return (
@@ -69,6 +57,8 @@ const PortfolioComponent = () => {
                   zIndex: "12",
 
                   width: "99%",
+
+                  marginRight: "15px",
                 }}
               >
                 <img className="portfolioImage" src={item.image} />

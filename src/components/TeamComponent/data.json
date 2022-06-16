@@ -1,47 +1,56 @@
 {
-    "data": [
-      {
-        "id": "0",
-        "image": "https://cdn.nirmitee.io/Team/YogeshDaga.png",
-       
-        "site": "Boongg.com",
-        "link": "https://www.boongg.com/Pune"
-      },
-      {
-        "id": "1",
-        "image": "/images/Byteseal.png",
-       
-        "site": "Byteseal",
-        "link": "https://nikhileshmw.wixsite.com/mysite-3"
-      },
-      {
-        "id": "2",
-        "image": "/images/cars4all.png",
-       
-        "site": "Cars4All",
-        "link": "https://www.cars4all.in/"
-      },
-      {
-        "id": "3",
-        "image": "/images/lkart.png",
-      
-        "site": "L-Kart",
-        "link": "https://shop.lkart.in/"
-      },
-      {
-        "id": "4",
-        "image": "/images/payTm.jpg",
-       
-        "site": "PayTm Integration",
-        "link": "https://www.boongg.com/Pune"
-      },
-      {
-        "id": "5",
-        "image": "/images/phonePe.png",
-      
-        "site": "PhonePe Integration",
-        "link": "https://www.boongg.com/Pune"
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "id": "0",
+      "image": "/images/YogeshDaga.png",
+
+      "Name": "Yogesh Daga",
+      "Designation": "HEAD"
+    },
+
+    
+    {
+      "id": "1",
+      "image": "/images/AkshayPatil.png",
+
+      "Name": "Akshay Patil",
+      "Designation": "MEARN Stack Developer"
+    },
+    {
+      "id": "2",
+      "image": "/images/JitendraChowdhary.png",
+
+      "Name": "Jitendra Choudhary",
+      "Designation": "Full Stack Developer"
+    },
+    {
+      "id": "3",
+      "image": "/images/PratikPanda.png",
+
+      "Name": "Pratik Panda",
+      "Designation": "UI/UX Designer"
+    },
+    {
+      "id": "4",
+      "image": "/images/AtharvaChavan.jpg",
+
+      "Name": "Atharva Chavan",
+      "Designation": "Full-Stack Developer"
+    },
+    {
+      "id": "5",
+      "image": "/images/RohitPardeshi.png",
+
+      "Name": "Rohit Pardeshi",
+      "Designation": "MEARN Stack Developer"
+    },
+    {
+      "id": "6",
+      "image": "/images/Vaishnavi.png",
+
+      "Name": "Vaishnavi Pothuraju",
+      "Designation": "UI/UX & Graphic Designer"
+    }
+   
+  ]
+}
