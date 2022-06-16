@@ -1,0 +1,80 @@
+
+.agriculture_main{
+    min-height: 20vh;
+    margin-bottom: 3.5rem;
+}
+
+.agriculture_innerPageBanner{
+    padding-top: 7.5rem;
+    padding-bottom: 3px;
+    margin-bottom: 6.5rem;
+    position: relative;
+    height: 42vh;
+    width: 100vw;
+    background-color: #000;
+    z-index: -1;
+}
+
+.agriculture_innerPageBanner img{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    opacity: .4;
+    left: 0;
+}
+
+.agriculture_innerPageBanner h1{
+    position: absolute;
+    color: #f7f7f7;
+    opacity: 1;
+    width: 100vw;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    bottom: 25%;
+    letter-spacing: 2px;
+}
+
+.agriculture_container{
+    margin: 0 5rem;   
+    padding: 0 15px;
+}
+
+.agriculture_container-inner{
+    text-align: left;
+    
+}
+.agriculture_container-inner{
+    color: rgb(99, 99, 99); 
+       font-size: 23px;    
+}
+
+.agriculture_container-inner > h4 {
+    color: #2969b0;
+}
+
+.agriculture_container-inner > span {
+    font-size: medium;
+}
+
+
+.agriculture_container-inner > span  > a {
+    text-decoration: none;
+  }
+
+  .agriculture_container-inner > span > a:visited {
+    color: rgb(99, 99, 99);  }
+ 
+  .agriculture_container-inner > span > a:hover {
+    color: #2c2c2c;
+  }
+ 
+
+  .li-components > ol > * {
+    padding-bottom: 25px;
+}
+
+.li-components-head {
+    font-weight: 900;
+    color: #69798d;
+}

@@ -1,0 +1,54 @@
+
+.advertisement_main{
+    min-height: 20vh;
+    margin-bottom: 3.5rem;
+}
+
+.advertisement_innerPageBanner{
+    padding-top: 7.5rem;
+    padding-bottom: 3px;
+    margin-bottom: 6.5rem;
+    position: relative;
+    height: 42vh;
+    width: 100vw;
+    background-color: #000;
+    z-index: -1;
+}
+
+.advertisement_innerPageBanner img{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    opacity: .4;
+    left: 0;
+}
+
+.advertisement_innerPageBanner h1{
+    position: absolute;
+    color: #f7f7f7;
+    opacity: 1;
+    width: 100vw;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    bottom: 25%;
+    letter-spacing: 2px;
+}
+
+.advertisement_container{
+    margin: 0 5rem;   
+    padding: 0 15px;
+}
+
+.advertisement_container-inner{
+    text-align: left;
+    
+}
+.advertisement_container-inner{
+    color: black;
+    font-size: 23px;    
+}
+
+.advertisement_container-inner > span {
+    font-size: medium;
+}

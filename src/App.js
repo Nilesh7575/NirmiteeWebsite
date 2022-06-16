@@ -10,6 +10,12 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import PortfolioComponent from "./components/PortfolioComponent/PortfolioComponent ";
 import Service from './components/pages/Service'
+import Fintech from './components/pages/Case Studies/Fintech'
+import Logistics from "./components/pages/Case Studies/Logistics";
+import Advertisement from "./components/pages/Case Studies/Advertisement";
+import Healthcare from "./components/pages/Case Studies/Healthcare";
+import Ecommerce from "./components/pages/Case Studies/Ecommerce";
+import Agriculture from "./components/pages/Case Studies/Agriculture";
 
 
 function App() {
@@ -17,38 +23,45 @@ function App() {
   const scrollHome = useRef()
   
   return (
-    <div className="App">
+    <div> <Agriculture/></div>
+    // <div className="App">
 
 
-      {/* <Navbar  />
-      <Cover />
-      <Services />
-      <Service/>
-      <PortfolioComponent/>
-      <Footer /> */}
+    //   {/* <Navbar  />
+    //   <Cover />
+    //   <Services />
+    //   <Service/>
+    //   <PortfolioComponent/>
+    //   <Footer /> */}
 
-      <Router>
-        <Navbar scrollRef = {scrollRef} scrollHome = {scrollHome} />
-        <Switch>
-        <Route path="/mobileAppDevelopment">
-            <Service/>
-          </Route>
-          <Route path="/">
-            <div ref = {scrollHome}><Cover scrollRef = {scrollRef}/></div>
-            <Services />
-            <div ref={scrollRef}>
+    //   <Router>
+    //     <Navbar scrollRef = {scrollRef} scrollHome = {scrollHome} />
+    //     <Switch>
+    //     <Route path="/mobileAppDevelopment">
+    //         <Service/>
+    //       </Route>
+    //       <Route path="/">
+    //         <div ref = {scrollHome}><Cover scrollRef = {scrollRef}/></div>
+    //         <Services />
+    //         <div ref={scrollRef}>
             
-            <PortfolioComponent/></div>
-          </Route>
-        </Switch>
-        <Footer/>
-      </Router>
+    //         <PortfolioComponent/></div>
+    //       </Route>
+
+    //       <Route path="/fintech">
+    //         <Fintech/>
+    //       </Route>
+
+
+    //     </Switch>
+    //     <Footer/>
+    //   </Router>
 
 
   
 
 
-    </div>
+    // </div>
   );
 }
 

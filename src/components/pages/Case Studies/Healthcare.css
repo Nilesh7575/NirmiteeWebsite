@@ -1,0 +1,71 @@
+
+.healthcare_main{
+    min-height: 20vh;
+    margin-bottom: 3.5rem;
+}
+
+.healthcare_innerPageBanner{
+    padding-top: 7.5rem;
+    padding-bottom: 3px;
+    margin-bottom: 6.5rem;
+    position: relative;
+    height: 42vh;
+    width: 100vw;
+    background-color: #000;
+    z-index: -1;
+}
+
+.healthcare_innerPageBanner img{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    opacity: .4;
+    left: 0;
+}
+
+.healthcare_innerPageBanner h1{
+    position: absolute;
+    color: #f7f7f7;
+    opacity: 1;
+    width: 100vw;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    bottom: 25%;
+    letter-spacing: 2px;
+}
+
+.healthcare_container{
+    margin: 0 5rem;   
+    padding: 0 15px;
+}
+
+.healthcare_container-inner{
+    text-align: left;
+    
+}
+.healthcare_container-inner{
+    color: rgb(99, 99, 99); 
+       font-size: 23px;    
+}
+
+.healthcare_container-inner > h4 {
+    color: #2969b0;
+}
+
+.healthcare_container-inner > span {
+    font-size: medium;
+}
+
+
+.healthcare_container-inner > span  > a {
+    text-decoration: none;
+  }
+
+  .healthcare_container-inner > span > a:visited {
+    color: rgb(99, 99, 99);  }
+ 
+  .healthcare_container-inner > span > a:hover {
+    color: #2c2c2c;
+  }
+ 

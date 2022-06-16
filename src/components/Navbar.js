@@ -240,10 +240,11 @@ whileHover={{ color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>ALL CASE STUDIES</motion.h4> </a>
 
 
+
   <a href="#"><motion.p
 
 whileHover={{ color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Fintech</motion.p> </a>
+transition={{style:'spring', stiffness:100}}> <Link to ="/fintech"> Fintech </Link></motion.p> </a> 
 
 <a href="#"><motion.p
 
@@ -276,12 +277,6 @@ whileHover={{ color:'	#F0FFF0', originX: 0}}
 transition={{style:'spring', stiffness:100}}>
 Last Mile Delivery</motion.p> </a>
 
-
-
-<a href="#"><motion.p
-
-whileHover={{ color:'	#F0FFF0', originX: 0}}
-transition={{style:'spring', stiffness:100}}>Last Mile Delivery</motion.p> </a>
 
 
 
