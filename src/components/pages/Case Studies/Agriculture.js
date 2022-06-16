@@ -6,7 +6,7 @@ function Agriculture() {
     <div className="agriculture_main">
       <div class="agriculture_innerPageBanner">
         <img src="https://cdn.nirmitee.io/CaseStudies/Agriculture.jpg" alt="" />
-        <h1>agriculture</h1>
+        <h1>Agriculture</h1>
       </div>
 
       <div className="agriculture_container container">
