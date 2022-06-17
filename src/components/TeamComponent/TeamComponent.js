@@ -16,13 +16,26 @@ const TeamComponent = () => {
             justifyContent: "space-evenly",
             flexWrap: "wrap",
             margin: "0px 0px",
-            padding: "100px 0px 50px 0px",
+            padding: "0px 0px 50px 0px",
             height: "auto",
             width: "100%",
             background: "#f3f3ff",
           }}
         >
-          <h2 class="text-center prevent-select ">Our Creative Team</h2>
+          <div
+            className="inner-page-banner our-team"
+            style={{ paddingTop: "150px", width : "100%", height
+             : "fit-content" }}
+          >
+            <div class="text-center" >
+              <h1 className="text-center" style={{ color : "white"}}>Our Creative Team</h1>
+              <h5 style={{ color : "white", fontSize : "1.2rem"}}>
+                Learn how we helped our several clients grow in online business.
+                <br />
+                It will give you an idea of our capabilities.
+              </h5>
+            </div>
+          </div>
 
           {data.data.map((item, index) => (
             <Grid
