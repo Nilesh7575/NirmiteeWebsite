@@ -4,8 +4,10 @@ import "./Services.css";
 function Services() {
   return (
     <div className="services">
-      <div className="service"><span>Our Services</span></div>
-      
+      <div className="service">
+        <span>Our Services</span>
+      </div>
+
       <div className="tiles">
         <div className="wrapper">
           <img
@@ -13,7 +15,8 @@ function Services() {
             alt=""
           />
           <h2>Mobile Development</h2>
-          <p>
+
+          <p style={{ textOverflow: "ellipsis" }}>
             At Nirmitee.io we firmly believe that a successful app is not only
             technically sound and scalable, but also is the one that Offers
             value to its users.
