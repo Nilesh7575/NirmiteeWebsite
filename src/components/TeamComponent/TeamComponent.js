@@ -28,8 +28,8 @@ const TeamComponent = () => {
              : "fit-content" }}
           >
             <div class="text-center" >
-              <h1 className="text-center" style={{ color : "white"}}>Our Creative Team</h1>
-              <h5 style={{ color : "white", fontSize : "1.2rem"}}>
+              <h1 className="text-center" style={{ color : "white", fontFamily: "Hind Vadodara", fontWeight : "900"}}>Our Creative Team</h1>
+              <h5 style={{ color : "white", fontSize : "1.2rem", fontFamily: "sans-serif",lineHeight: "1.8rem", fontWeight : "300" }}>
                 Learn how we helped our several clients grow in online business.
                 <br />
                 It will give you an idea of our capabilities.
@@ -48,7 +48,7 @@ const TeamComponent = () => {
               spacing={4}
               style={{
                 position: "relative",
-                margin: "20px 0px",
+                margin: "0px 0px 20px 0px",
 
                 maxWidth: "380px",
                 height: "405px",
