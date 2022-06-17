@@ -6,7 +6,7 @@ function Healthcare() {
     <div className="healthcare_main">
       <div class="healthcare_innerPageBanner">
         <img src="https://cdn.nirmitee.io/CaseStudies/Healthcare.jpg" alt="" />
-        <h1>healthcare</h1>
+        <h1>Healthcare</h1>
       </div>
 
       <div className="healthcare_container container">

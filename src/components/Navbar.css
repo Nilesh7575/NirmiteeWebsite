@@ -175,6 +175,8 @@ bottom: 0px;
 
   
   .dropdown-content {
+    padding-left: 3px;
+    padding-right: 3px;
     display: none;
     border-radius: 10px;
     position: absolute;
@@ -460,8 +462,9 @@ text-decoration: none;
     }
 
     .navbar-items-left{
-     width: 70%;
+     width: 50%;
     }
+    
  }
 
 
