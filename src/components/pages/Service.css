@@ -1,50 +1,131 @@
-
-.service_main{
-    min-height: 20vh;
-    margin-bottom: 3.5rem;
+.service_main {
+  min-height: 20vh;
+  margin-bottom: 3.5rem;
 }
 
-.Service_innerPageBanner{
-    padding-top: 7.5rem;
-    padding-bottom: 3px;
-    margin-bottom: 6.5rem;
-    position: relative;
-    height: 42vh;
-    width: 100vw;
-    background-color: #000;
-    z-index: -1;
+.Service_innerPageBanner {
+  padding-top: 7.5rem;
+  padding-bottom: 3px;
+  margin-bottom: 6.5rem;
+  position: relative;
+  height: 42vh;
+  width: 100vw;
+  background-color: #000;
+  z-index: -1;
 }
 
-.Service_innerPageBanner img{
-    position: absolute;
-    width: 100vw;
-    bottom: 0;
-    opacity: .4;
-    left: 0;
+.Service_innerPageBanner img {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
 }
 
-.Service_innerPageBanner h1{
-    position: absolute;
-    color: #f7f7f7;
-    opacity: 1;
-    width: 100vw;
-    font-size: 3.5rem;
-    font-weight: 800;
-    text-align: center;
-    bottom: 25%;
-    letter-spacing: 2px;
+.Service_innerPageBanner h1 {
+  position: absolute;
+  color: #f7f7f7;
+  opacity: 1;
+  width: 100vw;
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  bottom: 25%;
+  letter-spacing: 2px;
 }
 
-.Service_container{
-    margin: 0 5rem;   
-    padding: 0 15px;
+.Service_container {
+  margin: 0 5rem;
+  padding: 0 15px;
+  text-align: left;
+  color: rgb(99, 99, 99);
 }
 
-.Service_container-inner{
-    text-align: left;
-    
+.Service_container-inner {
+  text-align: left;
 }
-.Service_container-inner{
-    color: rgb(99, 99, 99);
-    font-size: 20px;    
+.Service_container-inner {
+  color: rgb(99, 99, 99);
+  font-size: 20px;
+}
+
+.heading {
+  color: rgb(30, 115, 190);
+  background-color: transparent;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.sub-heading {
+  color: rgb(56, 56, 56);
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Assistant, sans-serif;
+}
+
+li {
+  margin-bottom: 25px;
+}
+
+.defination {
+  font-size: 19px;
+  font-family: Karla, sans-serif;
+  font-weight: bold;
+  color: rgb(41, 105, 176);
+}
+
+.defination-list {
+  margin-bottom: 35px;
+}
+
+.italic-div {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.italic {
+  color: rgb(116, 116, 116);
+  font-family: Karla, sans-serif;
+  font-style: italic;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.italic-head {
+  color: rgb(30, 115, 190);
+  font-weight: bold;
+  font-family: Assistant, sans-serif;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.main-heading {
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Assistant, sans-serif;
+    color: rgb(41, 105, 176);
+}
+
+.normal-sub-heading{
+    color: rgb(56, 56, 56);
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+ol li{
+    font-size:18px;
+}
+
+.normal-main-heading{
+    font-size: 25px;
+    font-family: Assistant, sans-serif;
+    color: rgb(41, 105, 176);
+    font-weight: 400;
+}
+
+.sub-points{
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
