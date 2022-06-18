@@ -5,6 +5,15 @@ import './Service.css'
 
 
 
+const data = [
+    "Analytics consulting firms are all different, and there is no one size fits all solution for your needs.",
+    "That being said, we are capable of offering more solutions than most, thanks to our analytics shop and software engineering. Our cross-functional teams make it their job to thoroughly understand your business and customer base. This way, they’re able to strategically identify and solve your most complex data science challenges and figure out which growth strategies are the best for your company.",
+    "With us, you’re getting the best data consulting services. We are committed to using the latest tools and operational techniques to deliver solutions with improved data quality.",
+    "We’ll also use continuous integration and delivery to ensure everything runs smoothly as time goes on, so you’re not left with a dated approach as situations develop.",
+    "Additionally, we also provide data analysis consultancy services, meaning our agility and skills in innovation can become yours as well.",
+    "our company’s long term performance is our priority, so it’s important for us to work with you, instead of us merely working for you. If your staff needs help with anything, such as learning how to use new analytics software, we’ll work with them to ensure that they’re armed with the tools necessary for success."
+]
+
 const DataScience = () => {
     return (
         <div className="service_main">
@@ -106,32 +115,16 @@ const DataScience = () => {
                 </div>
 
                 <h4 className="heading">How We Resolve Problems</h4>
-                <div className="Service_container-inner" style={{ marginBottom: "20px" }}>
-                    <span>Analytics consulting firms are all different, and there is no one size fits all solution for your needs.</span>
-                </div>
-                <div className="Service_container-inner" style={{ marginBottom: "20px" }}>
-                    <span>That being said, we are capable of offering more solutions than most, thanks to our analytics shop and software engineering. Our cross-functional teams make it their job to thoroughly understand your business and customer base. This way, they’re able to strategically identify and solve your most complex data science challenges and figure out which growth strategies are the best for your company.</span>
-                </div>
-                <div className="Service_container-inner" style={{ marginBottom: "20px" }}>
-                    <span>With us, you’re getting the best data consulting services. We are committed to using the latest tools and operational techniques to deliver solutions with improved data quality.</span>
-                </div>
-                <div className="Service_container-inner" style={{ marginBottom: "20px" }}>
-                    <span>We’ll also use continuous integration and delivery to ensure everything runs smoothly as time goes on, so you’re not left with a dated approach as situations develop.</span>
-                </div>
-                <div className="Service_container-inner" style={{ marginBottom: "20px" }}>
-                    <span>Additionally, we also provide data analysis consultancy services, meaning our agility and skills in innovation can become yours as well.</span>
-                </div>
-                <div className="Service_container-inner" style={{ marginBottom: "20px" }}>
-                    <span>Your company’s long term performance is our priority, so it’s important for us to work with you, instead of us merely working for you. If your staff needs help with anything, such as learning how to use new analytics software, we’ll work with them to ensure that they’re armed with the tools necessary for success.</span>
-                </div>
-
-
-
+                {data.map((ele, index) => {
+                    return (
+                        <div key={index} className="Service_container-inner" style={{ marginBottom: "20px" }}>
+                            <span>{ele}</span>
+                        </div>
+                    )
+                })}
             </div>
-
         </div>
-        
-  )
+    )
 }
 
 export default DataScience

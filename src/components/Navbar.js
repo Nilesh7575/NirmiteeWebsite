@@ -146,11 +146,6 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
                     <Link to="/ai">
                       <a href="#">Arficial Intelligence</a>
                     </Link>
-
-
-
-
-
                   </div>
                   <div className="column">
                     <h4>CLOUD SERVICES</h4>
