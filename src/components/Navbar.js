@@ -116,18 +116,41 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
                     <Link to="/mobileappDevelopment">
                       <a href="#">Mobile App Development</a>
                     </Link>
-                    <a href="#">Web App Development</a>
-                    <a href="#">Internet of Things</a>
-                    <a href="#">MVP Learn Startup</a>
-                    <a href="#">UI/UX Design and Development</a>
+                    <Link to="/websiteDevelopment">
+                      <a href="#">Website Development</a>
+                    </Link>
+                    <Link to="/internetOfThings">
+                      <a href="#">Internet of Things</a>
+                    </Link>
+                    <Link to="/mvp">
+                      <a href="#">MVP Learn Startup</a>
+                    </Link>
+                    <Link to="/uiux">
+                      <a href="#">UI/UX Design and Development</a>
+                    </Link>
                   </div>
                   <div class="column">
                     <h4>GROWTH HACKING TECHNOLOGIES</h4>
-                    <a href="#">DevOps</a>
-                    <a href="#">Data Science</a>
-                    <a href="#">Big Data Technologies</a>
-                    <a href="#">Machnine Learning</a>
-                    <a href="#">Arficial Intelligence</a>
+                    <Link to="/devops">
+                      <a href="#">DevOps</a>
+                    </Link>
+                    <Link to="/datascience">
+                      <a href="#">Data Science</a>
+                    </Link>
+                    <Link to="/bigdata">
+                      <a href="#">Big Data Technologies</a>
+                    </Link>
+                    <Link to="/machinelearning">
+                      <a href="#">Machine Learning</a>
+                    </Link>
+                    <Link to="/ai">
+                      <a href="#">Arficial Intelligence</a>
+                    </Link>
+
+
+
+
+
                   </div>
                   <div className="column">
                     <h4>CLOUD SERVICES</h4>
@@ -188,111 +211,111 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
               </button>
 
               <div class="dropdown-content">
-               
-                  <motion.h4
+
+                <motion.h4
+                  whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                  transition={{ style: "spring", stiffness: 100 }}
+                >
+                  ALL CASE STUDIES
+                </motion.h4>{" "}
+
+                <Link to="/fintech">
+
+                  <motion.p
                     whileHover={{ color: "	#F0FFF0", originX: 0 }}
                     transition={{ style: "spring", stiffness: 100 }}
                   >
-                    ALL CASE STUDIES
-                  </motion.h4>{" "}
-            
-                <Link to="/fintech">
-                 
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Fintech
-                    </motion.p>{" "}
-                
+                    Fintech
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/logistics">
-                  
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Logistics
-                    </motion.p>{" "}
-                
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Logistics
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/advertisement">
-                  
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Advertisement
-                    </motion.p>{" "}
-                 
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Advertisement
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/healthcare">
-                
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Health Care
-                    </motion.p>{" "}
-                 
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Health Care
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="ecommerce">
-                
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      E-Commerce
-                    </motion.p>{" "}
-                  
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    E-Commerce
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/agriculture">
-                 
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Agriculture
-                    </motion.p>{" "}
-                  
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Agriculture
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/lastmiledelivery">
-                 
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Last Mile Delivery
-                    </motion.p>{" "}
-                  
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Last Mile Delivery
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/retail">
-                 
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Retail
-                    </motion.p>{" "}
-               
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Retail
+                  </motion.p>{" "}
+
                 </Link>
 
                 <Link to="/realestate">
-                
-                    <motion.p
-                      whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                      transition={{ style: "spring", stiffness: 100 }}
-                    >
-                      Real Estate
-                    </motion.p>{" "}
-                
+
+                  <motion.p
+                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
+                    transition={{ style: "spring", stiffness: 100 }}
+                  >
+                    Real Estate
+                  </motion.p>{" "}
+
                 </Link>
               </div>
             </div>

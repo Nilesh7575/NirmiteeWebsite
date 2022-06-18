@@ -18,6 +18,15 @@ import Healthcare from "./components/pages/Case Studies/Healthcare";
 import LastMileDelivery from "./components/pages/Case Studies/LastMileDelivery";
 import Retail from "./components/pages/Case Studies/Retail";
 import RealEstate from "./components/pages/Case Studies/RealEstate";
+import ArtificialIntelligence from "./components/pages/ArtificialIntelligence";
+import WebsiteDevelopment from "./components/pages/WebsiteDevelopment";
+import IOT from "./components/pages/IOT";
+import MVP from "./components/pages/MVP";
+import UIUX from "./components/pages/UIUX";
+import DevOps from "./components/pages/DevOps";
+import DataScience from "./components/pages/DataScience";
+import BigData from "./components/pages/BigData";
+import MachineLearning from "./components/pages/MachineLearning";
 
 function App() {
   const scrollRef = useRef();
@@ -25,14 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar  />
-      <Cover />
-      <Services />
-      <Service/>
-      <PortfolioComponent/>
-      <Footer /> */}
-
-      <Router>
+           <Router>
         <Navbar scrollRef={scrollRef} scrollHome={scrollHome} />
         <Switch>
           <Route path="/realestate">
@@ -72,6 +74,33 @@ function App() {
           </Route>
           <Route path="/mobileAppDevelopment">
             <Service />
+          </Route>
+          <Route path="/websiteDevelopment">
+            <WebsiteDevelopment />
+          </Route>
+          <Route path="/internetOfThings">
+            <IOT />
+          </Route>
+          <Route path="/mvp">
+            <MVP />
+          </Route>
+          <Route path="/uiux">
+            <UIUX />
+          </Route>
+          <Route path="/devops">
+            <DevOps />
+          </Route>
+          <Route path="/datascience">
+            <DataScience />
+          </Route>
+          <Route path="/bigdata">
+            <BigData />
+          </Route>
+          <Route path="/machinelearning">
+            <MachineLearning />
+          </Route>
+          <Route path="/ai">
+            <ArtificialIntelligence />
           </Route>
           <Route path="/">
             <div ref={scrollHome}>
