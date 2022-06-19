@@ -43,9 +43,12 @@ function Navbar(props) {
     <div className="navbar">
       <div className="navbar-items">
         <div className="navbar-items-left">
-          <Link className="navbar-items-left" to="/">
+          {/* <Link className="navbar-items-left-img" to="/">
             <img src={company} alt="" />
-          </Link>
+          </Link> */}
+
+<img src={company} alt="" />
+          
 
           {/* <div className="dropdown">
   <button className="dropbtn">Dropdown</button>
@@ -56,12 +59,8 @@ function Navbar(props) {
   </div>
 </div> */}
 
-          <motion.div
-            //  variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            className="navbar-items-left-icons"
-          >
+          <div className="navbar-items-left-icons">
+            
             <Link to="/">
               <div class="dropdown">
                 <button
@@ -329,7 +328,7 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
   </div> */}
             </div>
-          </motion.div>
+          </div>
 
           {/* 
      <button>Services</button>
@@ -341,22 +340,12 @@ transition={{style:'spring', stiffness:100}}>Link2</motion.p> </a>
 
         <div className="navbar-empty-middle"></div>
 
-        <motion.div
-          //  variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="navbar-items-right"
-        >
-          {/* 
-    <div class="dropdown">
-  <button class="dropbtn">
-    <p>Services</p>
-    </button>
+        <div  
+          className="navbar-items-right">
 
-</div> */}
 
           <button>TALK TO OUR EXPERT</button>
-        </motion.div>
+        </div>
 
         <div className="hamburger-menu-icon">
           <MobileNavigation />
