@@ -11,7 +11,7 @@ import CopyrightIcon from '@material-ui/icons/Copyright';
 const Footer = () => {
   return (
     <div className="footer-div">
-            <div className="container ">
+            {/* <div className="container "> */}
                 <div className="footer-main-div">
                     <div className="footer-inner-div">
                         <img src="https://www.nirmitee.io/static/media/Logo-02.8b282f50.png" alt="" height="150px" width="150px"/>
@@ -57,7 +57,7 @@ const Footer = () => {
                         <div className="contact-us-div"><span><CallIcon /></span><p>9607930224</p></div>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
             <div className="copyright-div">
             © 2020. All rights reserved by Nirmitee.io
             </div>

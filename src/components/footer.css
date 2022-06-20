@@ -72,11 +72,14 @@ h3 {
 
 .footer-main-div{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer-inner-div{
-    width: 30%;
+    width: 17rem;
     text-align: left;
+    margin-bottom: 1rem;
 }
 
 .footer-inner-div div a{
