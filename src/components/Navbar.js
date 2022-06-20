@@ -100,15 +100,27 @@ function Navbar(props) {
                   </div>
                   <div className="column">
                     <h4>CLOUD SERVICES</h4>
-                    <a href="#">Cloud Services</a>
-                    <a href="#">AWS Serverless Architecture</a>
-                    <a href="#">Google Cloud Services</a>
+                    <Link to="">
+                      <a href="#">Cloud Services</a>
+                    </Link>
+                    <Link to="">
+                      <a href="#">AWS Serverless Architecture</a>
+                    </Link>
+                    <Link to="">
+                      <a href="#">Google Cloud Services</a>
+                    </Link>
                   </div>
                   <div className="column">
                     <h4>INTEGRATIONS</h4>
-                    <a href="#">Phonepe-switch Intergrations</a>
-                    <a href="#">Paytm Mini-apps Integrations</a>
-                    <a href="#">Payment Gateway Integrations</a>
+                    <Link to="">
+                      <a href="#">Phonepe-switch Intergrations</a>
+                    </Link>
+                    <Link to="">
+                      <a href="#">Paytm Mini-apps Integrations</a>
+                    </Link>
+                    <Link to="">
+                      <a href="#">Payment Gateway Integrations</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -139,28 +151,11 @@ function Navbar(props) {
               </button>
 
               <div class="dropdown-content">
-                <motion.h4
-                  whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                  transition={{ style: "spring", stiffness: 100 }}
-                >
-                  ALL CASE STUDIES
-                </motion.h4>{" "}
+                <h4>ALL CASE STUDIES</h4>{" "}
                 <Link to="/fintech">
-                  <motion.p
-                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                    transition={{ style: "spring", stiffness: 100 }}
-                  >
-                    Fintech
-                  </motion.p>{" "}
+                  <p> Fintech</p>
                 </Link>
-                <Link to="/logistics">
-                  <motion.p
-                    whileHover={{ color: "	#F0FFF0", originX: 0 }}
-                    transition={{ style: "spring", stiffness: 100 }}
-                  >
-                    Logistics
-                  </motion.p>{" "}
-                </Link>
+                <Link to="/logistics">Logistics</Link>
                 <Link to="/advertisement">
                   <motion.p
                     whileHover={{ color: "	#F0FFF0", originX: 0 }}
