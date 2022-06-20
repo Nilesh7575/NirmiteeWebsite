@@ -1,23 +1,50 @@
-.banner {
+.main-banner {
   position: relative;
-  min-height: 100vh;
-  background: url(https://cdn.nirmitee.io/banner.jpeg) no-repeat bottom;
-  background-size: 100vw auto;
+  height: 100vh;
   margin-top: 12vh;
+}
+
+.banner {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  left: 0;
 }
 
 .headline {
   position: absolute;
-  padding: 0 7rem;
+  padding: 0 7vw;
   margin-top: 25vh;
 }
 
+@media only screen and (max-width: 900px) {
+  .headline {
+    padding: 0 4vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .headline {
+    padding: 0 3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .headline {
+    padding: 0 2vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .headline {
+    padding: 0 0.5vw;
+  }
+}
+
 .headline h1 {
-  font-size: 3.3rem;
+  font-size: 3.9vw;
   margin: unset;
   text-align: left;
   font-weight: 300;
-  margin-bottom: 29px;
+  margin-bottom: 25px;
   height: auto;
   max-height: 125px;
   letter-spacing: 1px;
@@ -26,36 +53,70 @@
 }
 
 .headline h3 {
-  font-size: 1.3rem;
+  font-size: 1.6vw;
   line-height: 1.5rem;
   color: #eee;
   font-weight: 300;
   text-align: left;
   letter-spacing: 1.5px;
-  width: 70%;
+  width: 90%;
+}
+
+@media only screen and (max-width: 400px) {
+  h1,
+  h3 {
+    text-align: center;
+  }
 }
 
 .button {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 30px;
   padding: 2px;
   height: 40px;
   /* border: 1px solid white; */
 }
-.button span {
-  cursor: pointer;
-  text-decoration: none;
+
+@media only screen and (max-width: 600px) {
+  .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 .btn {
-  width: 35%;
+  cursor: pointer;
+  border: none;
+  width: 12rem;
   color: black;
   transition: all 0.3s ease;
   border-radius: 5px;
   background-color: rgba(255, 254, 255, 0.805);
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.9vw;
   padding: 0.75rem;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+  margin-right: 20px;
 }
