@@ -150,10 +150,10 @@ function Navbar(props) {
                 </motion.p>
               </button>
 
-              <div class="dropdown-content">
+              {/* <div class="dropdown-content">
                 <h4>ALL CASE STUDIES</h4>{" "}
                 <Link to="/fintech">
-                  <p> Fintech</p>
+                  <a href="#"> Fintech</a>
                 </Link>
                 <Link to="/logistics">Logistics</Link>
                 <Link to="/advertisement">
@@ -212,6 +212,42 @@ function Navbar(props) {
                     Real Estate
                   </motion.p>{" "}
                 </Link>
+              </div> */}
+              <div className="dropdown1-content">
+                <div className="row">
+                  <div className="column">
+                    <h4>ALL CASE STUDIES</h4>
+                    <Link to="/fintech">
+                      <a href="#"> Fintech</a>
+                    </Link>
+                    <Link to="/logistics">
+                      <a href="#"> Logistics </a>
+                    </Link>
+                    <Link to="/advertisement">
+                      <a href="#">Advertisement</a>
+                    </Link>
+                    <Link to="/healthcare">
+                      <a href="#">Health Care</a>
+                    </Link>
+                  </div>
+                  <div className="column">
+                    <Link to="/ecommerce">
+                      <a href="#"> E-Commerce</a>
+                    </Link>
+                    <Link to="/agriculture">
+                      <a href="#">Agriculture</a>
+                    </Link>
+                    <Link to="/lastmiledelivery">
+                      <a href="#"> Last Mile Delivery</a>
+                    </Link>
+                    <Link to="/retail">
+                      <a href="#">Retail</a>
+                    </Link>
+                    <Link to="/realestate">
+                      <a href="#">Real Estate</a>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
 

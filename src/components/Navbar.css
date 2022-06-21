@@ -202,6 +202,17 @@
 
   z-index: 1;
 }
+.dropdown1-content-case{
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  margin-top: 5px;
+  width: 84vw;
+  left: -15vw;
+  height: 30vh;
+
+  z-index: 1;
+}
 
 /* .dropdown1-content .header {
   background: red;
@@ -210,6 +221,9 @@
 } */
 
 .dropdown1:hover .dropdown1-content {
+  display: block;
+}
+.dropdown1:hover .dropdown1-content-case {
   display: block;
 }
 .row {
