@@ -1,0 +1,76 @@
+.service_main {
+    min-height: 20vh;
+    margin-bottom: 3.5rem;
+}
+
+.Service_innerPageBanner {
+    padding-top: 7.5rem;
+    padding-bottom: 3px;
+    margin-bottom: 6.5rem;
+    position: relative;
+    height: 42vh;
+    width: 100vw;
+    background-color: #000;
+    z-index: -1;
+}
+
+.Service_innerPageBanner img {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    opacity: .4;
+    left: 0;
+}
+
+.Service_innerPageBanner h1 {
+    position: absolute;
+    color: #f7f7f7;
+    opacity: 1;
+    width: 100vw;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    bottom: 25%;
+    letter-spacing: 2px;
+}
+
+.paytm-mini-container {
+    margin: 0 8rem;
+    padding: 0 15px;
+}
+
+.paytm-mini-container h3 {
+    font-weight: bold;
+    color: rgb(41, 105, 176);
+    font-size: 24px;
+    margin: 1.8em 0;
+}
+
+.paytm-mini-container-inner {
+    text-align: left;
+
+}
+
+.paytm-mini-container-inner {
+    color: rgb(99, 99, 99);
+    font-size: 20px;
+}
+
+.paytm-mini-container-inner h4 {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(71, 85, 119);
+}
+
+.paytm-mini-container-inner p {
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.paytm-mini-container ol li {
+    margin: 1em 0;
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+}

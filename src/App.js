@@ -27,14 +27,47 @@ import DevOps from "./components/pages/DevOps";
 import DataScience from "./components/pages/DataScience";
 import BigData from "./components/pages/BigData";
 import MachineLearning from "./components/pages/MachineLearning";
+import CloudServices from "./components/pages/CloudServices";
+import AwsServerlessArchitecture from './components/pages/AwsServerlessArchitecture';
+import GoogleCloudServices from './components/pages/GoogleCloudServices';
+import PhonepeSwitchIntegrations from './components/pages/PhonepeSwitchIntegrations';
+import PaytmMiniAppsIntegrations from './components/pages/PaytmMiniAppsIntegrations'
+import PaymentGatewayIntegrations from './components/pages/PaymentGatewayIntegrations'
+import { useEffect } from "react";
 
 function App() {
   const scrollRef = useRef();
   const scrollHome = useRef();
 
+  useEffect(() => {
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/62a96584b0d10b6f3e776723/1g5ir93li";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  }, []);
+
+
+  useEffect(() => {
+    if (window.Tawk_API) {
+      window.Tawk_API.hideWidget();
+    }
+    return () => {
+      if (window.Tawk_API) {
+        window.Tawk_API.showWidget();
+      }
+    };
+  }, []);
+
   return (
     <div className="App">
-           <Router>
+      <Router>
         <Navbar scrollRef={scrollRef} scrollHome={scrollHome} />
         <Switch>
           <Route path="/realestate">
@@ -101,6 +134,24 @@ function App() {
           </Route>
           <Route path="/ai">
             <ArtificialIntelligence />
+          </Route>
+          <Route path="/cloudservices">
+            <CloudServices />
+          </Route>
+          <Route path="/aws">
+            <AwsServerlessArchitecture />
+          </Route>
+          <Route path="/googlecloudservices">
+            <GoogleCloudServices />
+          </Route>
+          <Route path="/phonepe">
+            <PhonepeSwitchIntegrations />
+          </Route>
+          <Route path="/paytm">
+            <PaytmMiniAppsIntegrations />
+          </Route>
+          <Route path="/payment">
+            <PaymentGatewayIntegrations />
           </Route>
           <Route path="/">
             <div ref={scrollHome}>

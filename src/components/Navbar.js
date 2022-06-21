@@ -100,25 +100,25 @@ function Navbar(props) {
                   </div>
                   <div className="column">
                     <h4>CLOUD SERVICES</h4>
-                    <Link to="">
+                    <Link to="/cloudservices">
                       <a href="#">Cloud Services</a>
                     </Link>
-                    <Link to="">
+                    <Link to="/aws">
                       <a href="#">AWS Serverless Architecture</a>
                     </Link>
-                    <Link to="">
+                    <Link to="/googlecloudservices">
                       <a href="#">Google Cloud Services</a>
                     </Link>
                   </div>
                   <div className="column">
                     <h4>INTEGRATIONS</h4>
-                    <Link to="">
+                    <Link to="/phonepe">
                       <a href="#">Phonepe-switch Intergrations</a>
                     </Link>
-                    <Link to="">
+                    <Link to="/paytm">
                       <a href="#">Paytm Mini-apps Integrations</a>
                     </Link>
-                    <Link to="">
+                    <Link to="/payment">
                       <a href="#">Payment Gateway Integrations</a>
                     </Link>
                   </div>
